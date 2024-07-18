@@ -99,6 +99,53 @@ a {
 /*============================
 GENERAL STYLES================
 ==============================*/
+body {
+  background: var(--body-background-color);
+  color: var(--text-color);
+}
+
+/* Light-mode theme styles */
+body.light-mode {
+  --text-color: var(--light-mode-text-color);
+  --button-text-color: var(--light-mode-button-text-color);
+  --button-background-color: var(--light-mode-button-color);
+  --body-background-color: var(--light-mode-body-background-color);
+  --striking-color: var(--light-mode-striking-color);
+  --selection-color: var(--light-mode-selection-color);
+}
+
+/* Dark-mode theme styles */
+body.dark-mode {
+  --text-color: var(--dark-mode-text-color);
+  --button-text-color: var(--dark-mode-button-text-color);
+  --button-background-color: var(--dark-mode-button-color);
+  --body-background-color: var(--dark-mode-body-background-color);
+  --striking-color: var(--dark-mode-striking-color);
+  --selection-color: var(--dark-mode-selection-color);
+}
+
+/* Root CSS variables for dark mode */
+:root {
+  --dark-mode-text-color: #f5f5f5;
+  --dark-mode-button-text-color: #0a0a0a;
+  --dark-mode-button-color: linear-gradient(90deg, #deffff, #9bffff);
+  --dark-mode-body-background-color: linear-gradient(90deg, #0a0a0a, #000032);
+  --dark-mode-striking-color: cyan;
+  --dark-mode-selection-color: #33ffcc;
+
+  /* Light-mode colors */
+  --light-mode-text-color: #0a0a0a;
+  --light-mode-button-text-color: #f5f5f5;
+  --light-mode-button-color: linear-gradient(90deg, #3b3bff, #005);
+  --light-mode-body-background-color: linear-gradient(90deg, #f6ffff, #bdffff);
+  --light-mode-striking-color: #0000ab;
+  --light-mode-selection-color: #89cfff;
+}
+
+::selection {
+  background-color: var(--selection-color);
+  color: var(--light-mode-text-color);
+}
 
 /*============================
 ANIMATIONS====================

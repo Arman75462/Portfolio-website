@@ -36,15 +36,13 @@
 }
 
 .HamburgerMenu__icon span {
-  background: cyan;
-  border: 2px solid cyan;
+  border: 2px solid var(--striking-color);
   border-radius: var(--hamburger-icon-span-border-radius);
-  box-shadow: 0 0 5px cyan, 0 0 10px cyan;
+  box-shadow: 0 0 5px var(--striking-color), 0 0 10px var(--striking-color);
   display: block;
   height: var(--hamburger-icon-span-height);
   position: absolute;
   transition: all 0.3s;
-  transition-delay: 0.5s;
 }
 
 .HamburgerMenu__icon span:first-child {

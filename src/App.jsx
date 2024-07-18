@@ -1,3 +1,4 @@
+import { useState } from "react";
 import "/src/App.css";
 import HeaderSection from "/src/components/sections/HeaderSection.jsx";
 import HeroSection from "/src/components/sections/HeroSection.jsx";
@@ -7,9 +8,11 @@ import ProjectsSection from "/src/components/sections/ProjectsSection.jsx";
 import ContactSection from "/src/components/sections/ContactSection.jsx";
 
 function App() {
+  const [isDarkMode, setIsDarkMode] = useState(true);
+
   return (
     <div className="App">
-      <HeaderSection />
+      <HeaderSection isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode} />
       <HeroSection />
       <AboutSection />
       <SkillsSection />

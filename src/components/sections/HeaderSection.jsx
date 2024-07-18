@@ -3,7 +3,7 @@ import ThemeToggleButton from "/src/components/elements/ThemeToggleButton.jsx";
 import HamburgerMenu from "/src/components/elements/HamburgerMenu.jsx";
 import LanguageSwitcher from "/src/components/elements/LanguageSwitcher";
 
-function HeaderSection() {
+function HeaderSection({ isDarkMode, setIsDarkMode }) {
   return (
     <header className="HeaderSection">
       <p className="HeaderSection__initials">AG</p>
@@ -36,7 +36,10 @@ function HeaderSection() {
           </li>
         </ul>
 
-        <ThemeToggleButton />
+        <ThemeToggleButton
+          isDarkMode={isDarkMode}
+          setIsDarkMode={setIsDarkMode}
+        />
 
         <HamburgerMenu />
 
