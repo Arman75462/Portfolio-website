@@ -1,4 +1,4 @@
-import "/src/styles/AboutSection.css";
+import "/src/styles/sections-styles/AboutSection.css";
 
 function AboutSection() {
   return <section className="AboutSection"></section>;

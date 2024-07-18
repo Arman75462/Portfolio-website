@@ -1,4 +1,4 @@
-import "/src/styles/SkillsSection.css";
+import "/src/styles/sections-styles/SkillsSection.css";
 
 function SkillsSection() {
   return <section className="SkillsSection"></section>;

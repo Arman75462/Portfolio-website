@@ -1,0 +1,16 @@
+.ThemeToggleButton {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70%;
+  padding: 1em;
+  transition: all 200ms;
+  border-radius: 50%;
+  background-color: rgba(173, 216, 230, 0.547);
+}
+
+.ThemeToggleButton:focus,
+.ThemeToggleButton:hover {
+  scale: 1.07;
+  background-color: lightblue;
+}

@@ -1,4 +1,4 @@
-import "/src/styles/HeroSection.css";
+import "/src/styles/sections-styles/HeroSection.css";
 
 function HeroSection() {
   return <section className="HeroSection"></section>;
