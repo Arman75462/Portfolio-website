@@ -1,11 +1,14 @@
 import "/src/styles/elements-styles/LanguageSwitcher.css";
 
-function LanguageSwitcher() {
+function LanguageSwitcher({ language, handleLanguageChange }) {
   return (
-    <select className="LanguageSwitcher">
-      <option value="en">🇺🇸</option>
-      <option value="fr">🇫🇷</option>
-      <option value="es">🇪🇸</option>
+    <select
+      className="LanguageSwitcher"
+      onChange={handleLanguageChange}
+      value={language}
+    >
+      <option value="en">English</option>
+      <option value="fr">Français</option>
     </select>
   );
 }

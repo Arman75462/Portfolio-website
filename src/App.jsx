@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "/src/App.css";
 import HeaderSection from "/src/components/sections/HeaderSection.jsx";
 import HeroSection from "/src/components/sections/HeroSection.jsx";
@@ -9,10 +9,32 @@ import ContactSection from "/src/components/sections/ContactSection.jsx";
 
 function App() {
   const [isDarkMode, setIsDarkMode] = useState(true);
+  const [language, setLanguage] = useState("en");
+
+  useEffect(() => {
+    // Update text content based on the selected language
+    document
+      .querySelectorAll("[data-lang-en], [data-lang-fr]")
+      .forEach((element) => {
+        const text = element.getAttribute(`data-lang-${language}`);
+        if (text !== null) {
+          element.textContent = text;
+        }
+      });
+  }, [language]);
+
+  function handleLanguageChange(event) {
+    setLanguage(event.target.value);
+  }
 
   return (
     <div className="App">
-      <HeaderSection isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode} />
+      <HeaderSection
+        isDarkMode={isDarkMode}
+        setIsDarkMode={setIsDarkMode}
+        language={language}
+        handleLanguageChange={handleLanguageChange}
+      />
       <HeroSection />
       <AboutSection />
       <SkillsSection />
