@@ -1,4 +1,9 @@
+.HeaderSection {
+  font-size: clamp(1.25rem, 2vw, 30rem);
+}
+
 .HeaderSection__initials {
   font-family: Petit Formal Script, cursive;
   font-weight: 700;
+  font-size: clamp(2rem, 3vw, 30rem);
 }

@@ -1,7 +1,7 @@
 .HamburgerMenu {
   /* HamburgerMenu variables */
-  --HamburgerMenu-width: 2em; /* ONLY NEED TO CHANGE WRAPPER HEIGHT AND WIDTH */
-  --HamburgerMenu-height: 2em;
+  --HamburgerMenu-width: 2.5em; /* ONLY NEED TO CHANGE WRAPPER HEIGHT AND WIDTH */
+  --HamburgerMenu-height: 2.5em;
   --icon-width: calc(var(--HamburgerMenu-width) * 0.6);
   --icon-height: calc(var(--HamburgerMenu-height) * 0.5);
   --hamburger-icon-span-height: calc(var(--HamburgerMenu-height) * 0.07);
@@ -16,7 +16,6 @@
 
   /* To center the HamburgerMenu__icon */
   display: flex;
-  z-index: 2;
   height: var(--HamburgerMenu-height);
   width: var(--HamburgerMenu-width);
 }

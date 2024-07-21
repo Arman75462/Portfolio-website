@@ -1,13 +1,6 @@
-import { useState } from "react";
 import "/src/styles/elements-styles/HamburgerMenu.css";
 
-function HamburgerMenu() {
-  const [menuOpen, setIsMenuOpen] = useState(false);
-
-  function handleHamburgerMenuClick() {
-    setIsMenuOpen(!menuOpen);
-  }
-
+function HamburgerMenu({ menuOpen, handleHamburgerMenuClick }) {
   return (
     <button
       className={`HamburgerMenu ${menuOpen ? "active" : ""}`}
