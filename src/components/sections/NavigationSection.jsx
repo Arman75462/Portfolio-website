@@ -2,7 +2,7 @@ import "/src/styles/sections-styles/NavigationSection.css";
 
 function NavigationSection() {
   return (
-    <nav className="NavigationSection" style={{ backgroundColor: "lightblue" }}>
+    <nav className="NavigationSection">
       <ul className="NavigationSection__list">
         <li className="NavigationSection__item ">
           <a href="#" className="NavigationSection__link">

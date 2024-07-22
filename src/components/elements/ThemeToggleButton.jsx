@@ -1,11 +1,9 @@
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
 import "/src/styles/elements-styles/ThemeToggleButton.css";
 import darkModeIcon from "/src/assets/images/darkModeIcon.webp";
 import lightModeIcon from "/src/assets/images/lightModeIcon.webp";
 
-function ThemeToggleButton() {
-  const [isDarkMode, setIsDarkMode] = useState(true);
-
+function ThemeToggleButton({ isDarkMode, setIsDarkMode }) {
   function handleThemeToggleButtonClick() {
     setIsDarkMode((prevMode) => !prevMode);
   }
@@ -24,7 +22,7 @@ function ThemeToggleButton() {
       className="ThemeToggleButton"
       onClick={handleThemeToggleButtonClick}
       style={{
-        backgroundImage: `url(${isDarkMode ? darkModeIcon : lightModeIcon})`,
+        backgroundImage: `url(${isDarkMode ? lightModeIcon : darkModeIcon})`,
       }}
     ></button>
   );

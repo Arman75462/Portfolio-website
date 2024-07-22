@@ -1,9 +1,30 @@
 .HeaderSection {
-  font-size: clamp(1.25rem, 2vw, 30rem);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  font-size: clamp(1.25rem, 2vw, 50rem);
+  padding: 0.5em 1.5em;
+
+  /* Box shadow for the bottom */
+  box-shadow: 0 0.2vw 0.5vw var(--box-shadow-color);
+  background: var(--body-background-color);
 }
 
 .HeaderSection__initials {
   font-family: Petit Formal Script, cursive;
   font-weight: 700;
   font-size: clamp(2rem, 3vw, 30rem);
+}
+
+.HeaderSection__controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 0.25em;
 }

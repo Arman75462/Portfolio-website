@@ -7,26 +7,36 @@ import NavigationSection from "/src/components/sections/NavigationSection.jsx";
 
 function HeaderSection({ language, setLanguage }) {
   const [menuOpen, setIsMenuOpen] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState(true);
 
   function handleHamburgerMenuClick() {
     setIsMenuOpen((prevMenuOpen) => !prevMenuOpen);
   }
 
   return (
-    <header className="HeaderSection">
-      <p className="HeaderSection__initials">AG</p>
+    <>
+      <header className="HeaderSection">
+        <p className="HeaderSection__initials">A.G.</p>
 
+        <div className="HeaderSection__controls">
+          <ThemeToggleButton
+            isDarkMode={isDarkMode}
+            setIsDarkMode={setIsDarkMode}
+          />
+
+          <LanguageSwitcher
+            language={language}
+            setLanguage={setLanguage}
+            isDarkMode={isDarkMode}
+          />
+          <HamburgerMenu
+            menuOpen={menuOpen}
+            handleHamburgerMenuClick={handleHamburgerMenuClick}
+          />
+        </div>
+      </header>
       {menuOpen ? <NavigationSection /> : null}
-
-      <ThemeToggleButton />
-
-      <HamburgerMenu
-        menuOpen={menuOpen}
-        handleHamburgerMenuClick={handleHamburgerMenuClick}
-      />
-
-      <LanguageSwitcher language={language} setLanguage={setLanguage} />
-    </header>
+    </>
   );
 }
 
