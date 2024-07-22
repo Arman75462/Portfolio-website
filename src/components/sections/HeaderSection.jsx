@@ -25,9 +25,9 @@ function HeaderSection({ language, setLanguage }) {
           />
 
           <LanguageSwitcher
-            language={language}
             setLanguage={setLanguage}
             isDarkMode={isDarkMode}
+            language={language}
           />
           <HamburgerMenu
             menuOpen={menuOpen}
@@ -35,7 +35,7 @@ function HeaderSection({ language, setLanguage }) {
           />
         </div>
       </header>
-      {menuOpen ? <NavigationSection /> : null}
+      {menuOpen ? <NavigationSection language={language} /> : null}
     </>
   );
 }

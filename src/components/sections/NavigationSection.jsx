@@ -1,34 +1,17 @@
 import "/src/styles/sections-styles/NavigationSection.css";
+import data from "/src/assets/data.js";
 
-function NavigationSection() {
+function NavigationSection({ language }) {
   return (
     <nav className="NavigationSection">
       <ul className="NavigationSection__list">
-        <li className="NavigationSection__item ">
-          <a href="#" className="NavigationSection__link">
-            Home
-          </a>
-        </li>
-        <li className="NavigationSection__item">
-          <a href="#about-me" className="NavigationSection__link">
-            About me
-          </a>
-        </li>
-        <li className="NavigationSection__item">
-          <a href="#skills" className="NavigationSection__link">
-            Skills
-          </a>
-        </li>
-        <li className="NavigationSection__item">
-          <a href="#projects" className="NavigationSection__link">
-            Projects
-          </a>
-        </li>
-        <li className="NavigationSection__item">
-          <a href="#contact" className="NavigationSection__link">
-            Contact
-          </a>
-        </li>
+        {data[language].HeaderSection.NavigationSection.map((listPoint) => (
+          <li className="NavigationSection__item" key={listPoint.id}>
+            <a href={listPoint.link} className="NavigationSection__link">
+              {listPoint.text}
+            </a>
+          </li>
+        ))}
       </ul>
     </nav>
   );

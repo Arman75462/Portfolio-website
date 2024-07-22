@@ -6,10 +6,44 @@
   padding: 0.75em;
   transition: all 200ms;
   border-radius: 50%;
+
+  color: var(--textColor);
 }
 
 .LanguageSwitcher:focus,
 .LanguageSwitcher:hover {
   scale: 1.05;
   background-color: rgba(128, 128, 128, 0.3);
+}
+
+.LanguageSwitcher-container {
+  position: relative;
+  display: flex; /* To make button aligned correctly with ThemeToggleButton and HamburgerMenu */
+}
+
+.LanguageSwitcher__options-container {
+  position: absolute;
+  top: 120%;
+  left: -100%;
+  font-size: clamp(0.75rem, 1vw, 30rem);
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+
+  border-radius: 20%;
+  background-color: var(--LanguageSwitcher__options-container-background-color);
+  color: var(--light-mode-text-color);
+}
+
+.LanguageSwitcher__option {
+  padding: 0.5em 1em;
+
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.LanguageSwitcher__option:focus,
+.LanguageSwitcher__option:hover {
+  border-radius: 10%;
+  opacity: 0.5;
 }

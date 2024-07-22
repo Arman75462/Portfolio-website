@@ -4,7 +4,6 @@
 /*============================
 RESETS=====================
 ==============================*/
-
 /* Ensure consistent box-sizing model */
 *,
 *::before,
@@ -113,6 +112,9 @@ body.light-mode {
   --striking-color: var(--light-mode-striking-color);
   --selection-color: var(--light-mode-selection-color);
   --box-shadow-color: var(--light-mode-box-shadow-color);
+  --LanguageSwitcher__options-container-background-color: var(
+    --light-mode-LanguageSwitcher__options-container-background-color
+  );
 }
 
 /* Dark-mode theme styles */
@@ -124,6 +126,9 @@ body.dark-mode {
   --striking-color: var(--dark-mode-striking-color);
   --selection-color: var(--dark-mode-selection-color);
   --box-shadow-color: var(--dark-mode-box-shadow-color);
+  --LanguageSwitcher__options-container-background-color: var(
+    --dark-mode-LanguageSwitcher__options-container-background-color
+  );
 }
 
 /* Root CSS variables for dark mode */
@@ -135,6 +140,7 @@ body.dark-mode {
   --dark-mode-striking-color: cyan;
   --dark-mode-selection-color: #33ffcc;
   --dark-mode-box-shadow-color: white;
+  --dark-mode-LanguageSwitcher__options-container-background-color: lightgray;
 
   /* Light-mode colors */
   --light-mode-text-color: #0a0a0a;
@@ -144,6 +150,7 @@ body.dark-mode {
   --light-mode-striking-color: #0000ab;
   --light-mode-selection-color: #89cfff;
   --light-mode-box-shadow-color: black;
+  --light-mode-LanguageSwitcher__options-container-background-color: lightgray;
 }
 
 ::selection {

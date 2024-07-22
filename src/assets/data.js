@@ -5,26 +5,32 @@ const data = {
         {
           text: "Home",
           link: "#",
+          id: 1,
         },
         {
           text: "Hero",
           link: "#hero",
+          id: 2,
         },
         {
           text: "About me",
           link: "#about-me",
+          id: 3,
         },
         {
-          text: "skills",
+          text: "Skills",
           link: "#skills",
+          id: 4,
         },
         {
           text: "Projects",
           link: "#projects",
+          id: 5,
         },
         {
           text: "Contact",
           link: "#contact",
+          id: 6,
         },
       ],
 
@@ -55,21 +61,25 @@ const data = {
               title: "HTML",
               imageSource: "",
               imageAlt: "",
+              id: 1,
             },
             {
               title: "CSS",
               imageSource: "",
               imageAlt: "",
+              id: 2,
             },
             {
               title: "JavaScript",
               imageSource: "",
               imageAlt: "",
+              id: 3,
             },
             {
               title: "React",
               imageSource: "",
               imageAlt: "",
+              id: 4,
             },
           ],
         },
@@ -80,16 +90,19 @@ const data = {
               title: "NPM",
               imageSource: "",
               imageAlt: "",
+              id: 1,
             },
             {
               title: "Git",
               imageSource: "",
               imageAlt: "",
+              id: 2,
             },
             {
               title: "GitHub",
               imageSource: "",
               imageAlt: "",
+              id: 3,
             },
           ],
         },
@@ -150,16 +163,164 @@ const data = {
   },
   fr: {
     HeaderSection: {
-      NavigationSection: {},
+      NavigationSection: [
+        {
+          text: "Accueil",
+          link: "#",
+          id: 1,
+        },
+        {
+          text: "Hero",
+          link: "#hero",
+          id: 2,
+        },
+        {
+          text: "À propos",
+          link: "#about-me",
+          id: 3,
+        },
+        {
+          text: "Compétences",
+          link: "#skills",
+          id: 4,
+        },
+        {
+          text: "Projets",
+          link: "#projects",
+          id: 5,
+        },
+        {
+          text: "Contact",
+          link: "#contact",
+          id: 6,
+        },
+      ],
       ThemeToggle: {},
       HamburgerMenu: {},
       LanguageSwitcher: {},
     },
-    HeroSection: {},
-    AboutSection: {},
-    SkillsSection: {},
-    ProjectsSection: {},
-    ContactSection: {},
+    HeroSection: {
+      h1: {
+        name: "Arman Gulistani",
+        career: "Développeur Front End",
+      },
+      armanImageSource: "INSERT HERE",
+      armanImageAlt: "INSERT HERE",
+    },
+    AboutSection: {
+      title: "À propos",
+      personalIntroduction:
+        "Salut ! Je suis Arman, un développeur front-end où je fais rencontrer la technologie avec l'art. Ma formule : du code propre, un design centré sur l'utilisateur, et une touche d'élégance.Je suis un architecte en programmation, passionné par la création de la structure et de la beauté des sites web. Animé par l'excitation de donner vie aux idées, j'apprends et innove constamment. Prêt à créer des solutions numériques étonnantes et fonctionnelles ? Faisons quelque chose d'incroyable ensemble.",
+    },
+    SkillsSection: {
+      title: "Compétences",
+      skillsCard: {
+        frontEndTools: {
+          title: "Développement Front-End",
+          skills: [
+            {
+              title: "HTML",
+              imageSource: "",
+              imageAlt: "",
+              id: 1,
+            },
+            {
+              title: "CSS",
+              imageSource: "",
+              imageAlt: "",
+              id: 2,
+            },
+            {
+              title: "JavaScript",
+              imageSource: "",
+              imageAlt: "",
+              id: 3,
+            },
+            {
+              title: "React",
+              imageSource: "",
+              imageAlt: "",
+              id: 4,
+            },
+          ],
+        },
+        devTools: {
+          title: "Outils de Développement",
+          skills: [
+            {
+              title: "NPM",
+              imageSource: "",
+              imageAlt: "",
+              id: 1,
+            },
+            {
+              title: "Git",
+              imageSource: "",
+              imageAlt: "",
+              id: 2,
+            },
+            {
+              title: "GitHub",
+              imageSource: "",
+              imageAlt: "",
+              id: 3,
+            },
+          ],
+        },
+      },
+    },
+    ProjectsSection: {
+      title: "My projects",
+      projectsList: [
+        {
+          title: "EtchASketch",
+          imageSource: "INSERT HERE",
+          imageAlt: "INSERT HERE",
+          description:
+            "Le projet Etch A Sketch est une application de dessin interactive et créative basée sur le web, conçue pour émuler le jouet classique Etch A Sketch. Cette application fournit un canevas virtuel en grille où les utilisateurs peuvent créer des œuvres d'art en pixel détaillées.",
+          websiteLink: "INSERT HERE",
+          id: 1,
+        },
+        {
+          title: "Tic-Tac-Toe",
+          imageSource: "INSERT HERE",
+          imageAlt: "INSERT HERE",
+          description:
+            "Le jeu de Tic-Tac-Toe est une application web attrayante et facile à utiliser qui transporte le jeu intemporel de Tic-Tac-Toe sur une plateforme numérique. Cette application permet à deux joueurs de participer au jeu classique, qui consiste à placer des 'X' et des 'O' dans une grille 3x3, avec pour objectif d'être le premier à aligner trois de leurs symboles, horizontalement, verticalement, ou en diagonale.",
+          id: 2,
+        },
+        {
+          title: "Task Manager",
+          imageSource: "INSERT HERE",
+          imageAlt: "INSERT HERE",
+          description:
+            "Task Manager est une application web conviviale conçue pour aider les individus à gérer leurs tâches quotidiennes de manière efficace. Cette application permet aux utilisateurs d'ajouter, d'organiser et de prioriser rapidement les tâches, assurant ainsi qu'ils restent à jour avec leur charge de travail.",
+          id: 3,
+        },
+        {
+          title: "Weather-website",
+          imageSource: "INSERT HERE",
+          imageAlt: "INSERT HERE",
+          description:
+            "Weather Website est une application web conviviale conçue pour fournir aux utilisateurs des informations météorologiques complètes pour différents endroits dans le monde. Cette application est adaptée pour tous ceux qui ont besoin de données météorologiques précises et à jour, que ce soit pour planifier des voyages, des activités en plein air, ou simplement pour la vie quotidienne.",
+          id: 4,
+        },
+        {
+          title: "CV Maker",
+          imageSource: "INSERT HERE",
+          imageAlt: "INSERT HERE",
+          description:
+            "CV Maker est un outil en ligne conçu pour la création de CV professionnels personnalisés selon les différentes candidatures. Il permet aux utilisateurs de télécharger leur CV, d'ajouter une photo personnelle, de personnaliser le schéma de couleurs, parmi d'autres fonctionnalités.",
+          id: 5,
+        },
+      ],
+    },
+    ContactSection: {
+      title: "Contact",
+      subTitle: "Laisse moi un message",
+      endMessage:
+        "C'est la fin ! J'espère que vous avez pu avoir un bon aperçu de mes compétences et de mes expériences. Si vous avez des opportunités ou des questions, je ne suis qu'à un message de distance. Explorons ensemble comment nous pouvons contribuer à un succès mutuel !",
+    },
   },
 };
 
