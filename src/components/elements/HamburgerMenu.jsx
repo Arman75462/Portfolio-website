@@ -1,6 +1,17 @@
+import { useEffect } from "react";
 import "/src/styles/elements-styles/HamburgerMenu.css";
 
 function HamburgerMenu({ menuOpen, handleHamburgerMenuClick }) {
+  useEffect(() => {
+    /* Make the scrollbar disappear when the menu is open. 
+    If it's closed, scrollbar should be visbile */
+    if (menuOpen) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "initial";
+    }
+  }, [menuOpen]);
+
   return (
     <button
       className={`HamburgerMenu ${menuOpen ? "active" : ""}`}
