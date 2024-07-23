@@ -2,9 +2,9 @@ import { useEffect } from "react";
 import "/src/styles/elements-styles/HamburgerMenu.css";
 
 function HamburgerMenu({ menuOpen, handleHamburgerMenuClick }) {
+  // Make the scrollbar disappear when the menu is open.
+  // If it's closed, scrollbar should be visbile
   useEffect(() => {
-    /* Make the scrollbar disappear when the menu is open. 
-    If it's closed, scrollbar should be visbile */
     if (menuOpen) {
       document.body.style.overflow = "hidden";
     } else {
