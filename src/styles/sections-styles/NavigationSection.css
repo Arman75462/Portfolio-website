@@ -1,4 +1,14 @@
-.NavigationSection__list {
+.NavigationSection__list-big {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  gap: 1.25em;
+
+  font-size: clamp(1rem, 1vw, 50rem);
+}
+
+.NavigationSection__list-small {
   position: fixed;
   left: 0;
   top: 0;
@@ -8,10 +18,10 @@
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  font-size: clamp(1rem, 2vw, 50rem);
+  font-size: clamp(1.1rem, 2vw, 50rem);
 
   /* Box shadow for the right */
-  box-shadow: 0px 0px 1vw var(--box-shadow-color);
+  box-shadow: 0px 0px 0.5em var(--box-shadow-color);
   background: var(--body-background-color);
   animation: flipBounce 1s forwards;
 }

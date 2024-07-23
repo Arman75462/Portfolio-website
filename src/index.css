@@ -151,6 +151,9 @@ body.dark-mode {
   --light-mode-selection-color: #89cfff;
   --light-mode-box-shadow-color: black;
   --light-mode-LanguageSwitcher__options-container-background-color: lightgray;
+
+  /* Padding left and right for sections */
+  --padding-sections-left-right: 10vw;
 }
 
 ::selection {
