@@ -1,0 +1,19 @@
+.CallToActionButton {
+  font-size: clamp(1.2rem, 1.5vw, 50rem);
+  padding: 0.6em 1.3em;
+
+  transition: all 0.3s;
+  border-radius: 1em;
+  box-shadow: 0 0 0.2vw var(--striking-color), 0 0 0.4vw var(--striking-color),
+    0 0 0.8vw var(--striking-color), 0 0 1.6vw var(--striking-color);
+  font-weight: 600;
+  background: var(--button-background-color);
+  color: var(--button-text-color);
+}
+
+.CallToActionButton:focus,
+.CallToActionButton:hover {
+  box-shadow: 0 0 0.2vw var(--striking-color), 0 0 0.8vw var(--striking-color),
+    0 0 1.25vw var(--striking-color), 0 0 3vw var(--striking-color);
+  transform: translateY(-5px);
+}

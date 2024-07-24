@@ -1,3 +1,5 @@
+import ArmanImage from "/src/assets/images/Arman.webp";
+
 const data = {
   en: {
     HeaderSection: {
@@ -9,27 +11,27 @@ const data = {
         },
         {
           text: "Hero",
-          link: "#hero",
+          link: "#HeroSection",
           id: 2,
         },
         {
           text: "About me",
-          link: "#about-me",
+          link: "#AboutSection",
           id: 3,
         },
         {
           text: "Skills",
-          link: "#skills",
+          link: "#SkillsSection",
           id: 4,
         },
         {
           text: "Projects",
-          link: "#projects",
+          link: "#ProjectsSection",
           id: 5,
         },
         {
           text: "Contact",
-          link: "#contact",
+          link: "#ContactSection",
           id: 6,
         },
       ],
@@ -43,8 +45,8 @@ const data = {
         name: "Arman Gulistani",
         career: "Front End Developer",
       },
-      armanImageSource: "INSERT HERE",
-      armanImageAlt: "INSERT HERE",
+      armanImageSource: ArmanImage,
+      armanImageAlt: "Arman Gulistani",
     },
     AboutSection: {
       title: "About me",
@@ -171,27 +173,27 @@ const data = {
         },
         {
           text: "Hero",
-          link: "#hero",
+          link: "#HeroSection",
           id: 2,
         },
         {
           text: "À propos",
-          link: "#about-me",
+          link: "#AboutSection",
           id: 3,
         },
         {
           text: "Compétences",
-          link: "#skills",
+          link: "#SkillsSection",
           id: 4,
         },
         {
           text: "Projets",
-          link: "#projects",
+          link: "#ProjectsSection",
           id: 5,
         },
         {
           text: "Contact",
-          link: "#contact",
+          link: "#ContactSection",
           id: 6,
         },
       ],
@@ -204,8 +206,8 @@ const data = {
         name: "Arman Gulistani",
         career: "Développeur Front End",
       },
-      armanImageSource: "INSERT HERE",
-      armanImageAlt: "INSERT HERE",
+      armanImageSource: ArmanImage,
+      armanImageAlt: "Arman Gulistani",
     },
     AboutSection: {
       title: "À propos",

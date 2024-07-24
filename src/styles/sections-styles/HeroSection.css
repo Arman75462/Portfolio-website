@@ -1,6 +1,35 @@
 .HeroSection {
-  max-width: 1000px;
-  margin: 10em auto;
-  padding: 4em var(--padding-sections-left-right);
-  font-size: clamp(1rem, 1.2vw, 50rem);
+  margin: 2em auto;
+  padding: 4em max(2em, 15vw);
+  font-size: clamp(1.6rem, 2.5vw, 50rem);
+}
+
+.HeroSection__name {
+  font-weight: 200;
+}
+
+.HeroSection__image {
+  border-radius: 0.5em;
+  box-shadow: 0.1em 0.1em 0.3em 0 var(--striking-color);
+  margin: 0 auto;
+  max-width: max(50vw, 400px);
+  width: 100%;
+}
+
+.HeroSection__cta {
+  margin: 2em 0 4em;
+}
+
+@media (min-width: 800px) {
+  .HeroSection {
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+  }
+
+  .HeroSection__image {
+    align-self: flex-start;
+    max-width: 30vw;
+    width: 40%;
+  }
 }

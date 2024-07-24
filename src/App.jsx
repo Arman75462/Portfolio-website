@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
       <HeaderSection language={language} setLanguage={setLanguage} />
-      <HeroSection />
+      <HeroSection language={language} />
       <AboutSection />
       <SkillsSection />
       <ProjectsSection />
