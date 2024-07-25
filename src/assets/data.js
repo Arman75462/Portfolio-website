@@ -6,33 +6,28 @@ const data = {
       NavigationSection: [
         {
           text: "Home",
-          link: "#",
-          id: 1,
-        },
-        {
-          text: "Hero",
           link: "#HeroSection",
-          id: 2,
+          id: 1,
         },
         {
           text: "About me",
           link: "#AboutSection",
-          id: 3,
+          id: 2,
         },
         {
           text: "Skills",
           link: "#SkillsSection",
-          id: 4,
+          id: 3,
         },
         {
           text: "Projects",
           link: "#ProjectsSection",
-          id: 5,
+          id: 4,
         },
         {
           text: "Contact",
           link: "#ContactSection",
-          id: 6,
+          id: 5,
         },
       ],
 
@@ -176,33 +171,28 @@ const data = {
       NavigationSection: [
         {
           text: "Accueil",
-          link: "#",
-          id: 1,
-        },
-        {
-          text: "Hero",
           link: "#HeroSection",
-          id: 2,
+          id: 1,
         },
         {
           text: "À propos",
           link: "#AboutSection",
-          id: 3,
+          id: 2,
         },
         {
           text: "Compétences",
           link: "#SkillsSection",
-          id: 4,
+          id: 3,
         },
         {
           text: "Projets",
           link: "#ProjectsSection",
-          id: 5,
+          id: 4,
         },
         {
           text: "Contact",
           link: "#ContactSection",
-          id: 6,
+          id: 5,
         },
       ],
       ThemeToggle: {},
