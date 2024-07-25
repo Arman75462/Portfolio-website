@@ -154,7 +154,7 @@ body.dark-mode {
 
   /* Left and right padding for sections */
 
-  --padding-left-right: max(2em, 15vw);
+  --padding-left-right: max(12.5vw);
 }
 
 ::selection {

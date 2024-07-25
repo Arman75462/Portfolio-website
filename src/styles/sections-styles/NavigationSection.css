@@ -4,7 +4,6 @@
   align-items: center;
 
   gap: 1.25em;
-
   font-size: clamp(1rem, 1vw, 50rem);
 }
 
