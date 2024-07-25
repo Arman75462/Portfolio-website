@@ -3,6 +3,8 @@
   top: 0;
   left: 0;
   right: 0;
+  /* To ensure it's above everything else */
+  z-index: 1000;
   display: flex;
   justify-content: space-between;
   align-items: center;

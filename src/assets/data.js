@@ -51,7 +51,9 @@ const data = {
     AboutSection: {
       title: "About me",
       personalIntroduction:
-        "Hi! I'm Arman, a front-end developer where I make technology meet art. My formula: clean code, user-focused design, and a dash of elegance.I'm an architect in code, passionate about crafting both the structure and beauty of websites.Driven by the excitement of bringing ideas to life, I'm constantly learning and innovating. Ready to create stunning, functional digital solutions? Let's make something incredible together.",
+        "Hi! I'm Arman, a front-end developer where I make technology meet art. My formula: clean code, user-focused design, and a dash of elegance. I'm an architect in code, passionate about crafting both the structure and beauty of websites. Driven by the excitement of bringing ideas to life, I'm constantly learning and innovating. Ready to create stunning, functional digital solutions? Let's make something incredible together.",
+      résuméLink:
+        "https://1drv.ms/w/c/743c0a64b9cc236f/EdFNOOEdLqNPgSKpJi4eaSsB3EshKsNbmj8JPYEPw1SHSw?e=4vR6oF",
     },
     SkillsSection: {
       title: "Skillset",
@@ -213,6 +215,8 @@ const data = {
       title: "À propos",
       personalIntroduction:
         "Salut ! Je suis Arman, un développeur front-end où je fais rencontrer la technologie avec l'art. Ma formule : du code propre, un design centré sur l'utilisateur, et une touche d'élégance.Je suis un architecte en programmation, passionné par la création de la structure et de la beauté des sites web. Animé par l'excitation de donner vie aux idées, j'apprends et innove constamment. Prêt à créer des solutions numériques étonnantes et fonctionnelles ? Faisons quelque chose d'incroyable ensemble.",
+      résuméLink:
+        "https://1drv.ms/w/c/743c0a64b9cc236f/Eajbz59dAJNEhlVY7vKMsHwBAdg0z8ifw8INvd3YuYULeQ?e=0xihJA",
     },
     SkillsSection: {
       title: "Compétences",
@@ -272,7 +276,7 @@ const data = {
       },
     },
     ProjectsSection: {
-      title: "My projects",
+      title: "Mes projets",
       projectsList: [
         {
           title: "EtchASketch",

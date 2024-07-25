@@ -13,8 +13,6 @@ function LanguageSwitcher({ language, setLanguage, isDarkMode }) {
     );
   }
 
-  console.log(language);
-
   return (
     <div className="LanguageSwitcher-container">
       <button

@@ -151,11 +151,21 @@ body.dark-mode {
   --light-mode-selection-color: #89cfff;
   --light-mode-box-shadow-color: black;
   --light-mode-LanguageSwitcher__options-container-background-color: lightgray;
+
+  /* Left and right padding for sections */
+
+  --padding-left-right: max(2em, 15vw);
 }
 
 ::selection {
   background-color: var(--selection-color);
   color: var(--light-mode-text-color);
+}
+
+.section__title {
+  border-top: 0.03em solid var(--text-color);
+  padding-top: 0.5em;
+  font-size: clamp(2.5rem, 3vw, 50rem);
 }
 
 /*============================

@@ -1,0 +1,15 @@
+.AboutSection {
+  padding: 2em var(--padding-left-right);
+}
+
+.AboutSection__buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5em;
+  align-items: center;
+}
+
+.AboutSection__personal-introduction {
+  margin: 1em 0 3em;
+  font-size: clamp(1rem, 1.2vw, 50rem);
+}

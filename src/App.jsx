@@ -14,10 +14,10 @@ function App() {
     <div className="App">
       <HeaderSection language={language} setLanguage={setLanguage} />
       <HeroSection language={language} />
-      <AboutSection />
-      <SkillsSection />
-      <ProjectsSection />
-      <ContactSection />
+      <AboutSection language={language} />
+      <SkillsSection language={language} />
+      <ProjectsSection language={language} />
+      <ContactSection language={language} />
     </div>
   );
 }

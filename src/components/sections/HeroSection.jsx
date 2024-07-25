@@ -15,9 +15,12 @@ function HeroSection({ language }) {
             {data[language].HeroSection.h1.career}
           </div>
         </h1>
-        <a href="#contact">
-          <CallToActionButton className="HeroSection__cta" />
-        </a>
+
+        <CallToActionButton
+          className="HeroSection__cta"
+          text="Contact"
+          link="#ContactSection"
+        />
       </div>
 
       <img
