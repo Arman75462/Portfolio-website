@@ -5,9 +5,8 @@ import HamburgerMenu from "/src/components/elements/HamburgerMenu.jsx";
 import LanguageSwitcher from "/src/components/elements/LanguageSwitcher.jsx";
 import NavigationSection from "/src/components/sections/NavigationSection.jsx";
 
-function HeaderSection({ language, setLanguage }) {
+function HeaderSection({ isDarkMode, setIsDarkMode, language, setLanguage }) {
   const [menuOpen, setIsMenuOpen] = useState(false);
-  const [isDarkMode, setIsDarkMode] = useState(true);
   const [isScreenLarge, setIsScreenLarge] = useState(window.innerWidth > 1000);
 
   useEffect(() => {
@@ -33,12 +32,14 @@ function HeaderSection({ language, setLanguage }) {
         {isScreenLarge ? (
           <NavigationSection
             language={language}
+            setIsMenuOpen={setIsMenuOpen}
             className="NavigationSection__list-big"
           />
         ) : (
           menuOpen && (
             <NavigationSection
               language={language}
+              onClick={() => setIsMenuOpen(false)}
               className="NavigationSection__list-small"
             />
           )

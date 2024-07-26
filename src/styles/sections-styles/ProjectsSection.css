@@ -1,3 +1,83 @@
 .ProjectsSection {
   padding: 2em var(--padding-left-right);
+
+  counter-reset: project-counter;
+}
+
+.ProjectsSection__project {
+  display: flex;
+  flex-direction: column;
+
+  margin: 5em auto 0;
+}
+
+.project__title {
+  margin-bottom: 0.25em;
+
+  counter-increment: project-counter;
+}
+
+.project__title::before {
+  margin-right: 0.2em;
+  font-size: 0.85em;
+
+  content: counter(project-counter) ". ";
+}
+
+.project__description {
+  margin-bottom: 1em;
+  font-size: clamp(1rem, 1vw, 50rem);
+}
+
+.project__link {
+  display: flex;
+  align-items: center;
+
+  gap: 0.5em;
+  font-size: clamp(1rem, 1.2vw, 50rem);
+
+  text-decoration: underline;
+  transition: all 0.3s;
+}
+
+.project__link:hover {
+  opacity: 0.5;
+}
+
+.project__link-image {
+  height: 1.25em;
+
+  text-decoration: underline;
+}
+
+.project__info {
+  margin: 0 auto 3em;
+}
+
+.project__image {
+  margin: auto;
+  max-width: 20em;
+  width: 100%;
+
+  border-radius: 0.5em;
+  box-shadow: 0.1em 0.1em 0.5em var(--text-color);
+}
+
+.ProjectsSection__load-more-projects-button {
+  display: block;
+  margin: 7em auto 0;
+}
+
+@media (min-width: 1000px) {
+  .ProjectsSection__project {
+    justify-content: space-between;
+    flex-direction: row;
+
+    gap: 4em;
+  }
+
+  /* Selects every odd-numbered ProjectsSection__project element and applies order property of the project__info element to 2 in flexbox layout to its child element with class project__info */
+  .ProjectsSection__project:nth-child(odd) .project__info {
+    order: 2;
+  }
 }

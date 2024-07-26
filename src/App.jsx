@@ -9,14 +9,20 @@ import ContactSection from "/src/components/sections/ContactSection.jsx";
 
 function App() {
   const [language, setLanguage] = useState("en");
+  const [isDarkMode, setIsDarkMode] = useState(true);
 
   return (
     <div className="App">
-      <HeaderSection language={language} setLanguage={setLanguage} />
+      <HeaderSection
+        language={language}
+        setLanguage={setLanguage}
+        isDarkMode={isDarkMode}
+        setIsDarkMode={setIsDarkMode}
+      />
       <HeroSection language={language} />
       <AboutSection language={language} />
       <SkillsSection language={language} />
-      <ProjectsSection language={language} />
+      <ProjectsSection language={language} isDarkMode={isDarkMode} />
       <ContactSection language={language} />
     </div>
   );

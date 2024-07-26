@@ -29,7 +29,6 @@
   position: relative;
 
   text-transform: uppercase;
-  color: var(--text-color);
 }
 
 .NavigationSection__link:before {

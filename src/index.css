@@ -22,7 +22,7 @@ RESETS=====================
 @media (prefers-reduced-motion: no-preference) {
   :has(:target) {
     scroll-behavior: smooth;
-    scroll-padding-top: 3rem; /* Offset for fixed headers or navbars */
+    scroll-padding-top: 4.5rem; /* Offset for fixed headers or navbars */
   }
 }
 
@@ -100,6 +100,10 @@ GENERAL STYLES================
 ==============================*/
 body {
   background: var(--body-background-color);
+  color: var(--text-color);
+}
+
+a {
   color: var(--text-color);
 }
 

@@ -118,44 +118,68 @@ const data = {
       projectsList: [
         {
           title: "EtchASketch",
-          imageSource: "INSERT HERE",
-          imageAlt: "INSERT HERE",
+          imageSource: "/src/assets/images/EtchASketch.webp",
+          imageAlt: "Screenshot of EtchASketch website",
           description:
             "The Etch A Sketch project is a creative and interactive web-based drawing application designed to emulate the classic Etch A Sketch toy. This application provides a virtual grid canvas where users can create detailed pixel art.",
-          websiteLink: "INSERT HERE",
+          websiteLink: "https://arman75462.github.io/EtchASketch/",
           id: 1,
         },
         {
-          title: "Tic-Tac-Toe",
-          imageSource: "INSERT HERE",
-          imageAlt: "INSERT HERE",
+          title: "Quizzical",
+          imageSource: "/src/assets/images/Quizzical.webp",
+          imageAlt: "Screenshot of Quizzical website",
           description:
-            "The Tic-Tac-Toe Game is an engaging and user-friendly web-based application that brings the timeless game of Tic-Tac-Toe to a digital platform. This application allows two players to engage in the classic game, which involves placing 'X's and 'O's in a 3x3 grid, with the goal of being the first to line up three of their symbols either horizontally, vertically, or diagonally.",
+            "Quizzical is an engaging trivia quiz game that tests your knowledge across various topics. Enjoy a fun and interactive experience as you answer questions and challenge yourself to achieve high scores.",
+          websiteLink: "https://quizzical7630.netlify.app/",
           id: 2,
         },
         {
-          title: "Task Manager",
-          imageSource: "INSERT HERE",
-          imageAlt: "INSERT HERE",
+          title: "SimpsonsMatchup",
+          imageSource: "/src/assets/images/SimpsonsMatchup.webp",
+          imageAlt: "Screenshot of SimpsonsMatchup website",
           description:
-            "The Task Manager is a user-friendly web-based application designed to help individuals manage their daily tasks efficiently. This application enables users to quickly add, organize, and prioritize tasks, ensuring they stay on top of their workload.",
+            "SimpsonsMatchup is a fun memory card game featuring characters from The Simpsons. Match pairs, choose difficulty levels, and enjoy animations, sound, and music. Track your progress with the scoreboard and easily restart or adjust settings.",
+          websiteLink: "https://simpsonsmatchup.netlify.app/",
           id: 3,
         },
         {
           title: "Weather-website",
-          imageSource: "INSERT HERE",
-          imageAlt: "INSERT HERE",
+          imageSource: "/src/assets/images/Weather-website.webp",
+          imageAlt: "Screenshot of Weather-website",
           description:
             "The Weather Website is a user-friendly, web-based application designed to provide users with comprehensive weather information for various locations around the world. This application is tailored for anyone needing accurate and up-to-date weather data, whether for planning travel, outdoor activities, or just daily life.",
+          websiteLink: "https://arman75462.github.io/Weather-website/",
           id: 4,
         },
         {
           title: "CV Maker",
-          imageSource: "INSERT HERE",
-          imageAlt: "INSERT HERE",
+          imageSource: "/src/assets/images/CVMaker.webp",
+          imageAlt: "Screenshot of CV Maker website",
           description:
             "CV Maker is an online tool designed for crafting professional resumes customized to various job applications. It enables users to download their CVs, add personal photos, and customize the color scheme, among other features.",
+          websiteLink: "https://incredible-entremet-748e8c.netlify.app/",
           id: 5,
+        },
+      ],
+      loadMoreProjectsList: [
+        {
+          title: "Tic-Tac-Toe",
+          imageSource: "/src/assets/images/TicTacToe.webp",
+          imageAlt: "Screenshot of Tic-Tac-Toe website",
+          description:
+            "The Tic-Tac-Toe Game is an engaging and user-friendly web-based application that brings the timeless game of Tic-Tac-Toe to a digital platform. This application allows two players to engage in the classic game, which involves placing 'X's and 'O's in a 3x3 grid, with the goal of being the first to line up three of their symbols either horizontally, vertically, or diagonally.",
+          websiteLink: "https://arman75462.github.io/Tic-Tac-Toe/",
+          id: 1,
+        },
+        {
+          title: "Task Manager",
+          imageSource: "/src/assets/images/TaskManager.webp",
+          imageAlt: "Screenshot of Task Manager website",
+          description:
+            "The Task Manager is a user-friendly web-based application designed to help individuals manage their daily tasks efficiently. This application enables users to quickly add, organize, and prioritize tasks, ensuring they stay on top of their workload.",
+          websiteLink: "https://arman75462.github.io/ToDoList/",
+          id: 2,
         },
       ],
     },
@@ -282,44 +306,68 @@ const data = {
       projectsList: [
         {
           title: "EtchASketch",
-          imageSource: "INSERT HERE",
-          imageAlt: "INSERT HERE",
+          imageSource: "/src/assets/images/EtchASketch.webp",
+          imageAlt: "Capture d'écran du site web EtchASketch",
           description:
             "Le projet Etch A Sketch est une application de dessin interactive et créative basée sur le web, conçue pour émuler le jouet classique Etch A Sketch. Cette application fournit un canevas virtuel en grille où les utilisateurs peuvent créer des œuvres d'art en pixel détaillées.",
-          websiteLink: "INSERT HERE",
+          websiteLink: "https://arman75462.github.io/EtchASketch/",
           id: 1,
         },
         {
-          title: "Tic-Tac-Toe",
-          imageSource: "INSERT HERE",
-          imageAlt: "INSERT HERE",
+          title: "Quizzical",
+          imageSource: "/src/assets/images/Quizzical.webp",
+          imageAlt: "Capture d'écran du site web Quizzical",
           description:
-            "Le jeu de Tic-Tac-Toe est une application web attrayante et facile à utiliser qui transporte le jeu intemporel de Tic-Tac-Toe sur une plateforme numérique. Cette application permet à deux joueurs de participer au jeu classique, qui consiste à placer des 'X' et des 'O' dans une grille 3x3, avec pour objectif d'être le premier à aligner trois de leurs symboles, horizontalement, verticalement, ou en diagonale.",
+            "Quizzical est un jeu de quiz captivant qui met vos connaissances à l'épreuve dans divers domaines. Profitez d'une expérience amusante et interactive en répondant aux questions et en vous défiant pour obtenir des scores élevés.",
+          websiteLink: "https://quizzical7630.netlify.app/",
           id: 2,
         },
         {
-          title: "Task Manager",
-          imageSource: "INSERT HERE",
-          imageAlt: "INSERT HERE",
+          title: "SimpsonsMatchup",
+          imageSource: "/src/assets/images/SimpsonsMatchup.webp",
+          imageAlt: "Capture d'écran du site web SimpsonsMatchup",
           description:
-            "Task Manager est une application web conviviale conçue pour aider les individus à gérer leurs tâches quotidiennes de manière efficace. Cette application permet aux utilisateurs d'ajouter, d'organiser et de prioriser rapidement les tâches, assurant ainsi qu'ils restent à jour avec leur charge de travail.",
+            "SimpsonsMatchup est un jeu de mémoire amusant mettant en vedette les personnages des Simpsons. Associez les paires, choisissez différents niveaux de difficulté et profitez des animations, des sons et de la musique. Suivez vos progrès avec le tableau des scores et redémarrez ou ajustez facilement les paramètres.",
+          websiteLink: "https://simpsonsmatchup.netlify.app/",
           id: 3,
         },
         {
           title: "Weather-website",
-          imageSource: "INSERT HERE",
-          imageAlt: "INSERT HERE",
+          imageSource: "/src/assets/images/Weather-website.webp",
+          imageAlt: "Capture d'écran du site web Weather-website",
           description:
             "Weather Website est une application web conviviale conçue pour fournir aux utilisateurs des informations météorologiques complètes pour différents endroits dans le monde. Cette application est adaptée pour tous ceux qui ont besoin de données météorologiques précises et à jour, que ce soit pour planifier des voyages, des activités en plein air, ou simplement pour la vie quotidienne.",
+          websiteLink: "https://arman75462.github.io/Weather-website/",
           id: 4,
         },
         {
           title: "CV Maker",
-          imageSource: "INSERT HERE",
-          imageAlt: "INSERT HERE",
+          imageSource: "/src/assets/images/CVMaker.webp",
+          imageAlt: "Capture d'écran du site web CV Maker",
           description:
             "CV Maker est un outil en ligne conçu pour la création de CV professionnels personnalisés selon les différentes candidatures. Il permet aux utilisateurs de télécharger leur CV, d'ajouter une photo personnelle, de personnaliser le schéma de couleurs, parmi d'autres fonctionnalités.",
+          websiteLink: "https://incredible-entremet-748e8c.netlify.app/",
           id: 5,
+        },
+      ],
+      loadMoreProjectsList: [
+        {
+          title: "Tic-Tac-Toe",
+          imageSource: "/src/assets/images/TicTacToe.webp",
+          imageAlt: "Capture d'écran du site web Tic-Tac-Toe",
+          description:
+            "Le jeu de Tic-Tac-Toe est une application web attrayante et facile à utiliser qui transporte le jeu intemporel de Tic-Tac-Toe sur une plateforme numérique. Cette application permet à deux joueurs de participer au jeu classique, qui consiste à placer des 'X' et des 'O' dans une grille 3x3, avec pour objectif d'être le premier à aligner trois de leurs symboles, horizontalement, verticalement, ou en diagonale.",
+          websiteLink: "https://arman75462.github.io/Tic-Tac-Toe/",
+          id: 1,
+        },
+        {
+          title: "Task Manager",
+          imageSource: "/src/assets/images/TaskManager.webp",
+          imageAlt: "Capture d'écran du site web Task Manager",
+          description:
+            "Task Manager est une application web conviviale conçue pour aider les individus à gérer leurs tâches quotidiennes de manière efficace. Cette application permet aux utilisateurs d'ajouter, d'organiser et de prioriser rapidement les tâches, assurant ainsi qu'ils restent à jour avec leur charge de travail.",
+          websiteLink: "https://arman75462.github.io/ToDoList/",
+          id: 2,
         },
       ],
     },
