@@ -44,6 +44,19 @@
 
 .LanguageSwitcher__option:focus,
 .LanguageSwitcher__option:hover {
-  border-radius: 10%;
   opacity: 0.5;
+}
+
+.LanguageSwitcher__option--selected {
+  font-weight: bold;
+}
+
+.LanguageSwitcher__option::after {
+  content: "✓";
+  display: none;
+  margin-left: 0.5em;
+}
+
+.LanguageSwitcher__option--selected::after {
+  display: inline;
 }

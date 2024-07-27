@@ -36,13 +36,17 @@ function LanguageSwitcher({ language, setLanguage, isDarkMode }) {
         <ul className="LanguageSwitcher__options-container">
           <button
             onClick={() => handleLanguageSwitcherOptionClick("fr")}
-            className="LanguageSwitcher__option"
+            className={`LanguageSwitcher__option ${
+              language === "fr" ? "LanguageSwitcher__option--selected" : ""
+            }`}
           >
             Français
           </button>
           <button
             onClick={() => handleLanguageSwitcherOptionClick("en")}
-            className="LanguageSwitcher__option"
+            className={`LanguageSwitcher__option ${
+              language === "en" ? "LanguageSwitcher__option--selected" : ""
+            }`}
           >
             English
           </button>

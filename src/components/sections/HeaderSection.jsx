@@ -25,46 +25,45 @@ function HeaderSection({ isDarkMode, setIsDarkMode, language, setLanguage }) {
   }
 
   return (
-    <>
-      <header className="HeaderSection">
-        <p className="HeaderSection__initials">A.G.</p>
+    <header className="HeaderSection">
+      <p className="HeaderSection__initials">A.G.</p>
 
-        {isScreenLarge ? (
+      {isScreenLarge ? (
+        <NavigationSection
+          language={language}
+          setIsMenuOpen={setIsMenuOpen}
+          className="NavigationSection__list-big"
+        />
+      ) : (
+        menuOpen && (
           <NavigationSection
             language={language}
-            setIsMenuOpen={setIsMenuOpen}
-            className="NavigationSection__list-big"
+            onClick={() => setIsMenuOpen(false)}
+            className="NavigationSection__list-small"
           />
-        ) : (
-          menuOpen && (
-            <NavigationSection
-              language={language}
-              onClick={() => setIsMenuOpen(false)}
-              className="NavigationSection__list-small"
-            />
-          )
-        )}
+        )
+      )}
 
-        <div className="HeaderSection__controls">
-          <ThemeToggleButton
-            isDarkMode={isDarkMode}
-            setIsDarkMode={setIsDarkMode}
-          />
+      <div className="HeaderSection__controls">
+        <ThemeToggleButton
+          isDarkMode={isDarkMode}
+          setIsDarkMode={setIsDarkMode}
+        />
 
-          <LanguageSwitcher
-            setLanguage={setLanguage}
-            isDarkMode={isDarkMode}
-            language={language}
+        <LanguageSwitcher
+          language={language}
+          setLanguage={setLanguage}
+          isDarkMode={isDarkMode}
+        />
+
+        {!isScreenLarge ? (
+          <HamburgerMenu
+            menuOpen={menuOpen}
+            handleHamburgerMenuClick={handleHamburgerMenuClick}
           />
-          {!isScreenLarge ? (
-            <HamburgerMenu
-              menuOpen={menuOpen}
-              handleHamburgerMenuClick={handleHamburgerMenuClick}
-            />
-          ) : null}
-        </div>
-      </header>
-    </>
+        ) : null}
+      </div>
+    </header>
   );
 }
 

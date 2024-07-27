@@ -168,7 +168,7 @@ body.dark-mode {
 .section__title {
   border-top: 0.03em solid var(--text-color);
   padding-top: 0.5em;
-  font-size: clamp(2.25rem, 3vw, 50rem);
+  font-size: clamp(2rem, 3vw, 50rem);
 }
 
 .section__subtitle {
