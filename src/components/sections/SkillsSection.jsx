@@ -8,7 +8,7 @@ function SkillsSection({ language }) {
         {data[language].SkillsSection.title}
       </h2>
 
-      <h3 className="SkillsSection__subtitle">
+      <h3 className="SkillsSection__subtitle section__subtitle">
         {data[language].SkillsSection.skillsCard.frontEndTools.title}
       </h3>
       <article className="SkillsSection__skills-container">
@@ -28,7 +28,7 @@ function SkillsSection({ language }) {
         )}
       </article>
 
-      <h3 className="SkillsSection__subtitle">
+      <h3 className="SkillsSection__subtitle section__subtitle">
         {data[language].SkillsSection.skillsCard.devTools.title}
       </h3>
       <article className="SkillsSection__skills-container">

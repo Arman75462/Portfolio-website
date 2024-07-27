@@ -1,3 +1,71 @@
 .ContactSection {
-  padding: 2em var(--padding-left-right);
+  padding: 2em var(--padding-left-right) 1em;
+}
+
+.ContactSection__title {
+  margin-bottom: 1.25em;
+}
+
+.ContactSection__subtitle {
+  margin-bottom: 0.4em;
+}
+
+.ContactSection__summary {
+  font-size: clamp(1rem, 1vw, 50rem);
+}
+
+.ContactSection__info {
+  margin: 1.5em 0 3em;
+}
+
+.ContactSection__info-item {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+  gap: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.ContactSection__info-phone,
+.ContactSection__info-email {
+  font-size: clamp(1.25rem, 1.25vw, 50rem);
+
+  font-weight: 700;
+}
+
+.ContactSection__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding-top: 0.75em;
+
+  border-top: 0.03em solid var(--text-color);
+}
+
+.ContactSection__copyright-text {
+  font-size: clamp(1rem, 1vw, 50rem);
+}
+
+.ContactSection__social-media-info {
+  display: flex;
+
+  gap: 0.25em;
+}
+
+.ContactSection__social-media-image {
+  opacity: 0.6;
+  transition: all 0.3s;
+}
+
+.ContactSection__social-media-image:focus,
+.ContactSection__social-media-image:hover {
+  scale: 1.1;
+}
+
+.ContactSection__info-icon,
+.ContactSection__social-media-image {
+  height: 2em;
+  width: 2em;
 }

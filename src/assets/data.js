@@ -188,6 +188,25 @@ const data = {
       subTitle: "Drop me a message",
       endMessage:
         "This is the end! I hope you've gained a good insight into my skills and experiences. If you have opportunities or questions, I’m just a message away. Let's explore how we can contribute to mutual success!",
+      contactInfo: {
+        telephoneNumber: "1 438 990 8805",
+        telephoneNumberImage: "/src/assets/images/phoneIcon.webp",
+        telephoneNumberImageAlt: "Phone icon",
+        email: "armangulistani@gmail.com",
+        emailImage: "/src/assets/images/mailIcon.webp",
+        emailImageAlt: "Email icon",
+      },
+      contactFooter: {
+        copyrightText: "© 2024 Arman Gulistani",
+        socialMediaInfo: {
+          gitHubLink: "https://github.com/Arman75462",
+          gitHubImage: "/src/assets/images/githubIcon.webp",
+          gitHubImageAlt: "GitHub icon by Icons8",
+          linkedInLink: "https://linkedin.com/in/arman-gulistani-115032263",
+          linkedInImage: "/src/assets/images/LinkedIn.webp",
+          linkedInImageAlt: "LinkedIn icon by Icons8",
+        },
+      },
     },
   },
   fr: {
@@ -247,25 +266,25 @@ const data = {
             {
               name: "HTML",
               imageSource: "/src/assets/images/HTML.webp",
-              imageAlt: "HTML icon by Icons8",
+              imageAlt: "Icône HTML par Icons8",
               id: 1,
             },
             {
               name: "CSS",
               imageSource: "/src/assets/images/CSS.webp",
-              imageAlt: "CSS icon by Icons8",
+              imageAlt: "Icône CSS par Icons8",
               id: 2,
             },
             {
               name: "JavaScript",
               imageSource: "/src/assets/images/JavaScript.webp",
-              imageAlt: "JavaScript icon by Icons8n",
+              imageAlt: "Icône JavaScript par Icons8",
               id: 3,
             },
             {
               name: "React",
               imageSource: "/src/assets/images/react.webp",
-              imageAlt: "React icon by Icons8",
+              imageAlt: "Icône React par Icons8",
               id: 4,
             },
           ],
@@ -276,25 +295,25 @@ const data = {
             {
               name: "NPM",
               imageSource: "/src/assets/images/npm.png",
-              imageAlt: "NPM icon by Icons8",
+              imageAlt: "Icône NPM par Icons8",
               id: 1,
             },
             {
               name: "Git",
-              imageSource: "/src/assets/images/",
-              imageAlt: "Git icon by Icons8",
+              imageSource: "/src/assets/images/git.png",
+              imageAlt: "Icône Git par Icons8",
               id: 2,
             },
             {
               name: "GitHub",
-              imageSource: "/src/assets/images/GitHub-black.webp",
-              imageAlt: "GitHub icon by Icons8",
+              imageSource: "/src/assets/images/githubIcon.webp",
+              imageAlt: "Icône GitHub par Icons8",
               id: 3,
             },
             {
               name: "Jest",
               imageSource: "/src/assets/images/jest.webp",
-              imageAlt: "Jest icon by Icons8",
+              imageAlt: "Icône Jest par Icons8",
               id: 4,
             },
           ],
@@ -376,6 +395,25 @@ const data = {
       subTitle: "Laisse moi un message",
       endMessage:
         "C'est la fin ! J'espère que vous avez pu avoir un bon aperçu de mes compétences et de mes expériences. Si vous avez des opportunités ou des questions, je ne suis qu'à un message de distance. Explorons ensemble comment nous pouvons contribuer à un succès mutuel !",
+      contactInfo: {
+        telephoneNumber: "1 438 990 8805",
+        telephoneNumberImage: "/src/assets/images/phoneIcon.webp",
+        telephoneNumberImageAlt: "Icône de téléphone",
+        email: "armangulistani@gmail.com",
+        emailImage: "/src/assets/images/mailIcon.webp",
+        emailImageAlt: "Icône de courriel",
+      },
+      contactFooter: {
+        copyrightText: "© 2024 Arman Gulistani",
+        socialMediaInfo: {
+          gitHubLink: "https://github.com/Arman75462",
+          gitHubImage: "/src/assets/images/githubIcon.webp",
+          gitHubImageAlt: "Icône GitHub par Icons8",
+          linkedInLink: "https://linkedin.com/in/arman-gulistani-115032263",
+          linkedInImage: "/src/assets/images/LinkedIn.webp",
+          linkedInImageAlt: "Icône LinkedIn par Icons8",
+        },
+      },
     },
   },
 };
