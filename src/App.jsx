@@ -1,4 +1,5 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { Fade, Zoom, Slide, Flip } from "react-awesome-reveal";
 import "/src/App.css";
 import HeaderSection from "/src/components/sections/HeaderSection.jsx";
 import HeroSection from "/src/components/sections/HeroSection.jsx";
@@ -10,9 +11,47 @@ import ContactSection from "/src/components/sections/ContactSection.jsx";
 function App() {
   const [language, setLanguage] = useState("en");
   const [isDarkMode, setIsDarkMode] = useState(true);
+  const [cursorPosition, setCursorPosition] = useState({ x: -1000, y: -1000 });
+  const [isMobile, setIsMobile] = useState(false);
+
+  // Function to detect if the device is mobile
+  const detectMobileDevice = () => {
+    const isTouchDevice =
+      "ontouchstart" in window || navigator.maxTouchPoints > 0;
+    setIsMobile(isTouchDevice);
+  };
+
+  useEffect(() => {
+    detectMobileDevice(); // Check for mobile device on mount
+    window.addEventListener("resize", detectMobileDevice); // Re-check on window resize
+
+    return () => {
+      window.removeEventListener("resize", detectMobileDevice); // Clean up listener
+    };
+  }, []);
+
+  function handleMove(e) {
+    if (!isMobile) {
+      setCursorPosition({ x: e.clientX, y: e.clientY });
+    }
+  }
 
   return (
-    <div className="App">
+    <div className="App" onMouseMove={handleMove}>
+      {/* CUSTOM CURSOR */}
+      {!isMobile && (
+        <>
+          <div
+            className="cursor-dot"
+            style={{ left: cursorPosition.x, top: cursorPosition.y }}
+          ></div>
+          <div
+            className="cursor-outline"
+            style={{ left: cursorPosition.x, top: cursorPosition.y }}
+          ></div>
+        </>
+      )}
+
       <HeaderSection
         language={language}
         setLanguage={setLanguage}

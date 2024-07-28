@@ -1,3 +1,31 @@
 .App {
   font-size: clamp(1.4rem, 1.7vw, 50rem);
+  cursor: none;
+}
+
+/* Custom cursor styles */
+.cursor-dot {
+  height: 5px;
+  width: 5px;
+
+  background: var(--text-color);
+}
+
+.cursor-outline {
+  height: 30px;
+  width: 30px;
+
+  opacity: 0.5;
+  border: 2px solid var(--text-color);
+  transition: left 100ms, top 100ms;
+}
+
+.cursor-dot,
+.cursor-outline {
+  position: fixed;
+  z-index: 2000;
+
+  pointer-events: none;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
 }

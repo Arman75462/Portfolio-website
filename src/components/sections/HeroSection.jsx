@@ -5,8 +5,9 @@ import CallToActionButton from "/src/components/elements/CallToActionButton.jsx"
 function HeroSection({ language }) {
   return (
     <section className="HeroSection" id="HeroSection">
+      <div className="HeroSection__parallax"></div>
       {/* Just a flex container  */}
-      <div>
+      <div className="HeroSection__content">
         <h1 className="HeroSection__title">
           <div className="HeroSection__name">
             {data[language].HeroSection.h1.name}
