@@ -61,7 +61,7 @@ function App() {
       <HeroSection language={language} />
       <AboutSection language={language} />
       <SkillsSection language={language} />
-      <ProjectsSection language={language} />
+      <ProjectsSection language={language} isDarkMode={isDarkMode} />
       <ContactSection language={language} />
     </div>
   );

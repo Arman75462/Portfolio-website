@@ -36,6 +36,11 @@
   width: 5em;
 
   opacity: 0.6;
+  transition: opacity 0.3s;
+}
+
+.skill-container:hover .skill__icon {
+  opacity: 1;
 }
 
 .skill__name {

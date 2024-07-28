@@ -10,7 +10,7 @@
   align-items: center;
 
   padding: 0.5em max(7vw, 1em);
-  font-size: clamp(1.4rem, 2vw, 50rem);
+  font-size: clamp(1.5rem, 2vw, 50rem);
 
   /* Box shadow for the bottom */
   box-shadow: 0 0.1em 0.25em var(--box-shadow-color);
@@ -18,7 +18,7 @@
 }
 
 .HeaderSection__initials {
-  font-size: clamp(2rem, 3vw, 30rem);
+  font-size: clamp(2.25rem, 3vw, 30rem);
 
   font-family: Petit Formal Script, cursive;
   font-weight: 700;

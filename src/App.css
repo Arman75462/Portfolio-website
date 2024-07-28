@@ -5,18 +5,18 @@
 
 /* Custom cursor styles */
 .cursor-dot {
-  height: 5px;
-  width: 5px;
+  height: 0.2em;
+  width: 0.2em;
 
   background: var(--text-color);
 }
 
 .cursor-outline {
-  height: 30px;
-  width: 30px;
+  height: 1.25em;
+  width: 1.25em;
 
   opacity: 0.5;
-  border: 2px solid var(--text-color);
+  border: 0.075em solid var(--text-color);
   transition: left 100ms, top 100ms;
 }
 

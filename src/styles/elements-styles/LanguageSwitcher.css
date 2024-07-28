@@ -24,15 +24,15 @@
 .LanguageSwitcher__options-container {
   position: absolute;
   top: 120%;
-  left: -100%;
-  font-size: clamp(0.75rem, 1vw, 30rem);
+  left: -130%;
+  font-size: clamp(0.9rem, 1vw, 30rem);
   display: flex;
   flex-direction: column;
   padding: 1em;
 
   border-radius: 20%;
   background-color: var(--LanguageSwitcher__options-container-background-color);
-  color: var(--light-mode-text-color);
+  color: #0a0a0a;
 }
 
 .LanguageSwitcher__option {

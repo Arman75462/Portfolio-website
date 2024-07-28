@@ -62,6 +62,7 @@
 .ContactSection__social-media-image:focus,
 .ContactSection__social-media-image:hover {
   scale: 1.1;
+  opacity: 1;
 }
 
 .ContactSection__info-icon,
