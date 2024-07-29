@@ -4,7 +4,12 @@ import data from "/src/assets/data.js";
 
 function AboutSection({ language }) {
   return (
-    <section className="AboutSection" id="AboutSection" data-aos="fade-down">
+    <section
+      className="AboutSection"
+      id="AboutSection"
+      data-aos="fade-down"
+      data-aos-anchor-placement="center-bottom"
+    >
       {/*  Just a flex container */}
       <div>
         <h2 className="AboutSection__title section__title">

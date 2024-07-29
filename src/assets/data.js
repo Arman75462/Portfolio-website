@@ -1,5 +1,31 @@
 import ArmanImage from "/src/assets/images/Arman.webp";
 
+/* Skills images */
+import cssIcon from "/src/assets/images/CSS.webp";
+import gitIcon from "/src/assets/images/git.png";
+import githubIcon from "/src/assets/images/githubIcon.webp";
+import htmlIcon from "/src/assets/images/HTML.webp";
+import javascriptIcon from "/src/assets/images/JavaScript.webp";
+import jestIcon from "/src/assets/images/jest.webp";
+import npmIcon from "/src/assets/images/npm.png";
+import reactIcon from "/src/assets/images/react.webp";
+
+/* Projects images */
+import cvMakerImage from "/src/assets/images/CVMaker.webp";
+import etchASketchImage from "/src/assets/images/EtchASketch.webp";
+import quizzicalImage from "/src/assets/images/Quizzical.webp";
+import simpsonsMatchupImage from "/src/assets/images/SimpsonsMatchup.webp";
+import taskManagerImage from "/src/assets/images/TaskManager.webp";
+import tictactoeImage from "/src/assets/images/TicTacToe.webp";
+import weatherWebsiteImage from "/src/assets/images/Weather-website.webp";
+
+/* Contact info images */
+import mailIcon from "/src/assets/images/LinkedIn.webp";
+import phoneIcon from "/src/assets/images/phoneIcon.webp";
+
+/* Social media images */
+import linkedinIcon from "/src/assets/images/LinkedIn.webp";
+
 const data = {
   en: {
     HeaderSection: {
@@ -58,25 +84,25 @@ const data = {
           skills: [
             {
               name: "HTML",
-              imageSource: "/src/assets/images/HTML.webp",
+              imageSource: htmlIcon,
               imageAlt: "HTML icon by Icons8",
               id: 1,
             },
             {
               name: "CSS",
-              imageSource: "/src/assets/images/CSS.webp",
+              imageSource: cssIcon,
               imageAlt: "CSS icon by Icons8",
               id: 2,
             },
             {
               name: "JavaScript",
-              imageSource: "/src/assets/images/JavaScript.webp",
+              imageSource: javascriptIcon,
               imageAlt: "JavaScript icon by Icons8n",
               id: 3,
             },
             {
               name: "React",
-              imageSource: "/src/assets/images/react.webp",
+              imageSource: reactIcon,
               imageAlt: "React icon by Icons8",
               id: 4,
             },
@@ -87,25 +113,25 @@ const data = {
           skills: [
             {
               name: "NPM",
-              imageSource: "/src/assets/images/npm.png",
+              imageSource: npmIcon,
               imageAlt: "NPM icon by Icons8",
               id: 1,
             },
             {
               name: "Git",
-              imageSource: "/src/assets/images/git.png",
+              imageSource: gitIcon,
               imageAlt: "Git icon by Icons8",
               id: 2,
             },
             {
               name: "GitHub",
-              imageSource: "/src/assets/images/githubIcon.webp",
+              imageSource: githubIcon,
               imageAlt: "GitHub icon by Icons8",
               id: 3,
             },
             {
               name: "Jest",
-              imageSource: "/src/assets/images/jest.webp",
+              imageSource: jestIcon,
               imageAlt: "Jest icon by Icons8",
               id: 4,
             },
@@ -118,7 +144,7 @@ const data = {
       projectsList: [
         {
           title: "EtchASketch",
-          imageSource: "/src/assets/images/EtchASketch.webp",
+          imageSource: etchASketchImage,
           imageAlt: "Screenshot of EtchASketch website",
           description:
             "The Etch A Sketch project is a creative and interactive web-based drawing application designed to emulate the classic Etch A Sketch toy. This application provides a virtual grid canvas where users can create detailed pixel art.",
@@ -127,7 +153,7 @@ const data = {
         },
         {
           title: "Quizzical",
-          imageSource: "/src/assets/images/Quizzical.webp",
+          imageSource: quizzicalImage,
           imageAlt: "Screenshot of Quizzical website",
           description:
             "Quizzical is an engaging trivia quiz game that tests your knowledge across various topics. Enjoy a fun and interactive experience as you answer questions and challenge yourself to achieve high scores.",
@@ -136,7 +162,7 @@ const data = {
         },
         {
           title: "SimpsonsMatchup",
-          imageSource: "/src/assets/images/SimpsonsMatchup.webp",
+          imageSource: simpsonsMatchupImage,
           imageAlt: "Screenshot of SimpsonsMatchup website",
           description:
             "SimpsonsMatchup is a fun memory card game featuring characters from The Simpsons. Match pairs, choose difficulty levels, and enjoy animations, sound, and music. Track your progress with the scoreboard and easily restart or adjust settings.",
@@ -145,7 +171,7 @@ const data = {
         },
         {
           title: "Weather-website",
-          imageSource: "/src/assets/images/Weather-website.webp",
+          imageSource: weatherWebsiteImage,
           imageAlt: "Screenshot of Weather-website",
           description:
             "The Weather Website is a user-friendly, web-based application designed to provide users with comprehensive weather information for various locations around the world. This application is tailored for anyone needing accurate and up-to-date weather data, whether for planning travel, outdoor activities, or just daily life.",
@@ -154,7 +180,7 @@ const data = {
         },
         {
           title: "CV Maker",
-          imageSource: "/src/assets/images/CVMaker.webp",
+          imageSource: cvMakerImage,
           imageAlt: "Screenshot of CV Maker website",
           description:
             "CV Maker is an online tool designed for crafting professional resumes customized to various job applications. It enables users to download their CVs, add personal photos, and customize the color scheme, among other features.",
@@ -165,7 +191,7 @@ const data = {
       loadMoreProjectsList: [
         {
           title: "Tic-Tac-Toe",
-          imageSource: "/src/assets/images/TicTacToe.webp",
+          imageSource: tictactoeImage,
           imageAlt: "Screenshot of Tic-Tac-Toe website",
           description:
             "The Tic-Tac-Toe Game is an engaging and user-friendly web-based application that brings the timeless game of Tic-Tac-Toe to a digital platform. This application allows two players to engage in the classic game, which involves placing 'X's and 'O's in a 3x3 grid, with the goal of being the first to line up three of their symbols either horizontally, vertically, or diagonally.",
@@ -174,7 +200,7 @@ const data = {
         },
         {
           title: "Task Manager",
-          imageSource: "/src/assets/images/TaskManager.webp",
+          imageSource: taskManagerImage,
           imageAlt: "Screenshot of Task Manager website",
           description:
             "The Task Manager is a user-friendly web-based application designed to help individuals manage their daily tasks efficiently. This application enables users to quickly add, organize, and prioritize tasks, ensuring they stay on top of their workload.",
@@ -190,20 +216,20 @@ const data = {
         "This is the end! I hope you've gained a good insight into my skills and experiences. If you have opportunities or questions, I’m just a message away. Let's explore how we can contribute to mutual success!",
       contactInfo: {
         telephoneNumber: "1 438 990 8805",
-        telephoneNumberImage: "/src/assets/images/phoneIcon.webp",
+        telephoneNumberImage: phoneIcon,
         telephoneNumberImageAlt: "Phone icon",
         email: "armangulistani@gmail.com",
-        emailImage: "/src/assets/images/mailIcon.webp",
+        emailImage: mailIcon,
         emailImageAlt: "Email icon",
       },
       contactFooter: {
         copyrightText: "© 2024 Arman Gulistani",
         socialMediaInfo: {
           gitHubLink: "https://github.com/Arman75462",
-          gitHubImage: "/src/assets/images/githubIcon.webp",
+          gitHubImage: githubIcon,
           gitHubImageAlt: "GitHub icon by Icons8",
           linkedInLink: "https://linkedin.com/in/arman-gulistani-115032263",
-          linkedInImage: "/src/assets/images/LinkedIn.webp",
+          linkedInImage: linkedinIcon,
           linkedInImageAlt: "LinkedIn icon by Icons8",
         },
       },
@@ -265,25 +291,25 @@ const data = {
           skills: [
             {
               name: "HTML",
-              imageSource: "/src/assets/images/HTML.webp",
+              imageSource: htmlIcon,
               imageAlt: "Icône HTML par Icons8",
               id: 1,
             },
             {
               name: "CSS",
-              imageSource: "/src/assets/images/CSS.webp",
+              imageSource: cssIcon,
               imageAlt: "Icône CSS par Icons8",
               id: 2,
             },
             {
               name: "JavaScript",
-              imageSource: "/src/assets/images/JavaScript.webp",
+              imageSource: javascriptIcon,
               imageAlt: "Icône JavaScript par Icons8",
               id: 3,
             },
             {
               name: "React",
-              imageSource: "/src/assets/images/react.webp",
+              imageSource: reactIcon,
               imageAlt: "Icône React par Icons8",
               id: 4,
             },
@@ -294,25 +320,25 @@ const data = {
           skills: [
             {
               name: "NPM",
-              imageSource: "/src/assets/images/npm.png",
+              imageSource: npmIcon,
               imageAlt: "Icône NPM par Icons8",
               id: 1,
             },
             {
               name: "Git",
-              imageSource: "/src/assets/images/git.png",
+              imageSource: gitIcon,
               imageAlt: "Icône Git par Icons8",
               id: 2,
             },
             {
               name: "GitHub",
-              imageSource: "/src/assets/images/githubIcon.webp",
+              imageSource: githubIcon,
               imageAlt: "Icône GitHub par Icons8",
               id: 3,
             },
             {
               name: "Jest",
-              imageSource: "/src/assets/images/jest.webp",
+              imageSource: jestIcon,
               imageAlt: "Icône Jest par Icons8",
               id: 4,
             },
@@ -325,7 +351,7 @@ const data = {
       projectsList: [
         {
           title: "EtchASketch",
-          imageSource: "/src/assets/images/EtchASketch.webp",
+          imageSource: etchASketchImage,
           imageAlt: "Capture d'écran du site web EtchASketch",
           description:
             "Le projet Etch A Sketch est une application de dessin interactive et créative basée sur le web, conçue pour émuler le jouet classique Etch A Sketch. Cette application fournit un canevas virtuel en grille où les utilisateurs peuvent créer des œuvres d'art en pixel détaillées.",
@@ -334,7 +360,7 @@ const data = {
         },
         {
           title: "Quizzical",
-          imageSource: "/src/assets/images/Quizzical.webp",
+          imageSource: quizzicalImage,
           imageAlt: "Capture d'écran du site web Quizzical",
           description:
             "Quizzical est un jeu de quiz captivant qui met vos connaissances à l'épreuve dans divers domaines. Profitez d'une expérience amusante et interactive en répondant aux questions et en vous défiant pour obtenir des scores élevés.",
@@ -343,7 +369,7 @@ const data = {
         },
         {
           title: "SimpsonsMatchup",
-          imageSource: "/src/assets/images/SimpsonsMatchup.webp",
+          imageSource: simpsonsMatchupImage,
           imageAlt: "Capture d'écran du site web SimpsonsMatchup",
           description:
             "SimpsonsMatchup est un jeu de mémoire amusant mettant en vedette les personnages des Simpsons. Associez les paires, choisissez différents niveaux de difficulté et profitez des animations, des sons et de la musique. Suivez vos progrès avec le tableau des scores et redémarrez ou ajustez facilement les paramètres.",
@@ -352,7 +378,7 @@ const data = {
         },
         {
           title: "Weather-website",
-          imageSource: "/src/assets/images/Weather-website.webp",
+          imageSource: weatherWebsiteImage,
           imageAlt: "Capture d'écran du site web Weather-website",
           description:
             "Weather Website est une application web conviviale conçue pour fournir aux utilisateurs des informations météorologiques complètes pour différents endroits dans le monde. Cette application est adaptée pour tous ceux qui ont besoin de données météorologiques précises et à jour, que ce soit pour planifier des voyages, des activités en plein air, ou simplement pour la vie quotidienne.",
@@ -361,7 +387,7 @@ const data = {
         },
         {
           title: "CV Maker",
-          imageSource: "/src/assets/images/CVMaker.webp",
+          imageSource: cvMakerImage,
           imageAlt: "Capture d'écran du site web CV Maker",
           description:
             "CV Maker est un outil en ligne conçu pour la création de CV professionnels personnalisés selon les différentes candidatures. Il permet aux utilisateurs de télécharger leur CV, d'ajouter une photo personnelle, de personnaliser le schéma de couleurs, parmi d'autres fonctionnalités.",
@@ -372,7 +398,7 @@ const data = {
       loadMoreProjectsList: [
         {
           title: "Tic-Tac-Toe",
-          imageSource: "/src/assets/images/TicTacToe.webp",
+          imageSource: tictactoeImage,
           imageAlt: "Capture d'écran du site web Tic-Tac-Toe",
           description:
             "Le jeu de Tic-Tac-Toe est une application web attrayante et facile à utiliser qui transporte le jeu intemporel de Tic-Tac-Toe sur une plateforme numérique. Cette application permet à deux joueurs de participer au jeu classique, qui consiste à placer des 'X' et des 'O' dans une grille 3x3, avec pour objectif d'être le premier à aligner trois de leurs symboles, horizontalement, verticalement, ou en diagonale.",
@@ -381,7 +407,7 @@ const data = {
         },
         {
           title: "Task Manager",
-          imageSource: "/src/assets/images/TaskManager.webp",
+          imageSource: taskManagerImage,
           imageAlt: "Capture d'écran du site web Task Manager",
           description:
             "Task Manager est une application web conviviale conçue pour aider les individus à gérer leurs tâches quotidiennes de manière efficace. Cette application permet aux utilisateurs d'ajouter, d'organiser et de prioriser rapidement les tâches, assurant ainsi qu'ils restent à jour avec leur charge de travail.",
@@ -397,20 +423,20 @@ const data = {
         "C'est la fin ! J'espère que vous avez pu avoir un bon aperçu de mes compétences et de mes expériences. Si vous avez des opportunités ou des questions, je ne suis qu'à un message de distance. Explorons ensemble comment nous pouvons contribuer à un succès mutuel !",
       contactInfo: {
         telephoneNumber: "1 438 990 8805",
-        telephoneNumberImage: "/src/assets/images/phoneIcon.webp",
+        telephoneNumberImage: phoneIcon,
         telephoneNumberImageAlt: "Icône de téléphone",
         email: "armangulistani@gmail.com",
-        emailImage: "/src/assets/images/mailIcon.webp",
+        emailImage: mailIcon,
         emailImageAlt: "Icône de courriel",
       },
       contactFooter: {
         copyrightText: "© 2024 Arman Gulistani",
         socialMediaInfo: {
           gitHubLink: "https://github.com/Arman75462",
-          gitHubImage: "/src/assets/images/githubIcon.webp",
+          gitHubImage: githubIcon,
           gitHubImageAlt: "Icône GitHub par Icons8",
           linkedInLink: "https://linkedin.com/in/arman-gulistani-115032263",
-          linkedInImage: "/src/assets/images/LinkedIn.webp",
+          linkedInImage: linkedinIcon,
           linkedInImageAlt: "Icône LinkedIn par Icons8",
         },
       },
