@@ -30,6 +30,11 @@ function LanguageSwitcher({ language, setLanguage, isDarkMode }) {
             (prevIsLanguageOptionsOpen) => !prevIsLanguageOptionsOpen
           )
         }
+        aria-label={
+          isLanguageOptionsOpen
+            ? "Close language options"
+            : "Open language options"
+        }
       ></button>
 
       {isLanguageOptionsOpen ? (
@@ -39,6 +44,7 @@ function LanguageSwitcher({ language, setLanguage, isDarkMode }) {
             className={`LanguageSwitcher__option ${
               language === "fr" ? "LanguageSwitcher__option--selected" : ""
             }`}
+            aria-label="Select French language"
           >
             Français
           </button>
@@ -47,6 +53,7 @@ function LanguageSwitcher({ language, setLanguage, isDarkMode }) {
             className={`LanguageSwitcher__option ${
               language === "en" ? "LanguageSwitcher__option--selected" : ""
             }`}
+            aria-label="Select English language"
           >
             English
           </button>

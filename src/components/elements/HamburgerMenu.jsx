@@ -16,6 +16,7 @@ function HamburgerMenu({ menuOpen, handleHamburgerMenuClick }) {
     <button
       className={`HamburgerMenu ${menuOpen ? "active" : ""}`}
       onClick={handleHamburgerMenuClick}
+      aria-label={menuOpen ? "Close menu" : "Open menu"}
     >
       <div className="HamburgerMenu__icon">
         <span></span>

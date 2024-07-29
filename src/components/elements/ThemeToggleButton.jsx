@@ -24,6 +24,7 @@ function ThemeToggleButton({ isDarkMode, setIsDarkMode }) {
       style={{
         backgroundImage: `url(${isDarkMode ? lightModeIcon : darkModeIcon})`,
       }}
+      aria-label={isDarkMode ? "Switch to light mode" : "Switch to dark mode"}
     ></button>
   );
 }

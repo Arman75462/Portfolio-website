@@ -117,13 +117,15 @@ function ProjectsSection({ language, isDarkMode }) {
           ))
         : null}
 
-      <CallToActionButton
-        text={getCallToActionButtonText(
-          data[language].ProjectsSection.loadMoreProjectsList.length
-        )}
+      <button
+        type="button"
         className="ProjectsSection__load-more-projects-button"
         onClick={handleloadMoreProjectsClick}
-      />
+      >
+        {getCallToActionButtonText(
+          data[language].ProjectsSection.loadMoreProjectsList.length
+        )}
+      </button>
     </main>
   );
 }
