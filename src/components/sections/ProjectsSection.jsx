@@ -36,7 +36,12 @@ function ProjectsSection({ language, isDarkMode }) {
         {data[language].ProjectsSection.title}
       </h2>
       {data[language].ProjectsSection.projectsList.map((project) => (
-        <article className="ProjectsSection__project" key={project.id}>
+        <article
+          className="ProjectsSection__project"
+          data-aos={project.id % 2 === 0 ? "fade-left" : "fade-right"}
+          data-aos-anchor-placement="center-bottom"
+          key={project.id}
+        >
           <div className="project__info">
             <h3 className="project__title section__subtitle">
               {project.title}
@@ -72,7 +77,12 @@ function ProjectsSection({ language, isDarkMode }) {
 
       {loadMoreProjects
         ? data[language].ProjectsSection.loadMoreProjectsList.map((project) => (
-            <article className="ProjectsSection__project" key={project.id}>
+            <article
+              className="ProjectsSection__project"
+              data-aos={project.id % 2 === 0 ? "fade-left" : "fade-right"}
+              data-aos-anchor-placement="center-bottom"
+              key={project.id}
+            >
               <div className="project__info">
                 <h3 className="project__title section__subtitle">
                   {project.title}

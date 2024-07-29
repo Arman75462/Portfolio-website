@@ -11,7 +11,11 @@ function SkillsSection({ language }) {
       <h3 className="SkillsSection__subtitle section__subtitle">
         {data[language].SkillsSection.skillsCard.frontEndTools.title}
       </h3>
-      <article className="SkillsSection__skills-container">
+      <article
+        className="SkillsSection__skills-container"
+        data-aos="fade-up"
+        data-aos-anchor-placement="bottom-bottom"
+      >
         {data[language].SkillsSection.skillsCard.frontEndTools.skills.map(
           (skill) => (
             <div key={skill.id} className="skill-container">
@@ -31,7 +35,11 @@ function SkillsSection({ language }) {
       <h3 className="SkillsSection__subtitle section__subtitle">
         {data[language].SkillsSection.skillsCard.devTools.title}
       </h3>
-      <article className="SkillsSection__skills-container">
+      <article
+        className="SkillsSection__skills-container"
+        data-aos="fade-up"
+        data-aos-anchor-placement="bottom-bottom"
+      >
         {data[language].SkillsSection.skillsCard.devTools.skills.map(
           (skill) => (
             <div key={skill.id} className="skill-container">

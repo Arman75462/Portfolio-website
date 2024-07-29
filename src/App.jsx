@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
-import { Fade, Zoom, Slide, Flip } from "react-awesome-reveal";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import "/src/App.css";
 import HeaderSection from "/src/components/sections/HeaderSection.jsx";
 import HeroSection from "/src/components/sections/HeroSection.jsx";
@@ -13,6 +14,14 @@ function App() {
   const [isDarkMode, setIsDarkMode] = useState(true);
   const [cursorPosition, setCursorPosition] = useState({ x: -1000, y: -1000 });
   const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    AOS.init({
+      duration: 1750,
+      easing: "ease-in-out-quad",
+      once: true,
+    });
+  }, []);
 
   // Function to detect if the device is mobile
   const detectMobileDevice = () => {
@@ -58,6 +67,7 @@ function App() {
         isDarkMode={isDarkMode}
         setIsDarkMode={setIsDarkMode}
       />
+
       <HeroSection language={language} />
       <AboutSection language={language} />
       <SkillsSection language={language} />

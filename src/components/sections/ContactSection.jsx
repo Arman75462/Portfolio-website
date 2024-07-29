@@ -3,7 +3,12 @@ import data from "/src/assets/data.js";
 
 function ContactSection({ language }) {
   return (
-    <footer className="ContactSection" id="ContactSection">
+    <footer
+      className="ContactSection"
+      id="ContactSection"
+      data-aos="fade-right"
+      data-aos-anchor-placement="center-bottom"
+    >
       <h2 className="ContactSection__title section__title">
         {data[language].ContactSection.title}
       </h2>

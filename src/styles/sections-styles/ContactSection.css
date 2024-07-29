@@ -29,7 +29,7 @@
 
 .ContactSection__info-phone,
 .ContactSection__info-email {
-  font-size: clamp(1.25rem, 1.25vw, 50rem);
+  font-size: clamp(1.15rem, 1.5vw, 50rem);
 
   font-weight: 700;
 }
