@@ -20,7 +20,7 @@ import tictactoeImage from "/src/assets/images/TicTacToe.webp";
 import weatherWebsiteImage from "/src/assets/images/Weather-website.webp";
 
 /* Contact info images */
-import mailIcon from "/src/assets/images/LinkedIn.webp";
+import mailIcon from "/src/assets/images/mailIcon.webp";
 import phoneIcon from "/src/assets/images/phoneIcon.webp";
 
 /* Social media images */
