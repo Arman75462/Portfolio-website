@@ -1,18 +1,9 @@
 import "/src/styles/elements-styles/CallToActionButton.css";
 
-function CallToActionButton({
-  className,
-  text,
-  link = null,
-  onClick = () => null,
-}) {
+function CallToActionButton({ className, text, link }) {
   return (
     <a href={link}>
-      <button
-        type="button"
-        className={`CallToActionButton ${className}`}
-        onClick={onClick}
-      >
+      <button type="button" className={`CallToActionButton ${className}`}>
         {text}
       </button>
     </a>
