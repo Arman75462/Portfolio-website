@@ -99,7 +99,6 @@ GENERAL STYLES================
 body {
   background: var(--body-background-color);
   color: var(--text-color);
-  overflow-x: hidden;
 }
 
 a {
@@ -170,6 +169,13 @@ body.dark-mode {
 
 ::-webkit-scrollbar-thumb:hover {
   background: var(--scrollbar-thumb-hover-color);
+}
+
+/* Mobile-specific styles */
+@media (max-width: 768px) {
+  html {
+    overflow-x: hidden; /* Reapply overflow hidden for mobile devices */
+  }
 }
 
 /*============================

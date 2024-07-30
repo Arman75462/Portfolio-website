@@ -39,7 +39,7 @@ function ProjectsSection({ language, isDarkMode }) {
         <article
           className="ProjectsSection__project"
           data-aos={project.id % 2 === 0 ? "fade-left" : "fade-right"}
-          data-aos-anchor-placement="bottom-bottom"
+          data-aos-anchor-placement="top-center"
           key={project.id}
         >
           <div className="project__info">
@@ -80,7 +80,7 @@ function ProjectsSection({ language, isDarkMode }) {
             <article
               className="ProjectsSection__project"
               data-aos={project.id % 2 === 0 ? "fade-left" : "fade-right"}
-              data-aos-anchor-placement="bottom-bottom"
+              data-aos-anchor-placement="top-center"
               key={project.id}
             >
               <div className="project__info">
