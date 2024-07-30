@@ -21,7 +21,6 @@
   font-size: clamp(2.25rem, 3vw, 30rem);
 
   font-family: Petit Formal Script, cursive;
-  font-weight: 700;
 }
 
 .HeaderSection__controls {

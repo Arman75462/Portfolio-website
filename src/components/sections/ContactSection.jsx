@@ -75,6 +75,7 @@ function ContactSection({ language }) {
                   .gitHubImageAlt
               }
               className="ContactSection__social-media-image"
+              loading="lazy"
             />
           </a>
 
@@ -96,6 +97,7 @@ function ContactSection({ language }) {
                   .linkedInImageAlt
               }
               className="ContactSection__social-media-image"
+              loading="lazy"
             />
           </a>
         </article>
