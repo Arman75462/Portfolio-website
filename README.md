@@ -2,12 +2,13 @@
 
 ## Introduction
 
-Welcome to my personal portfolio website. As a Front End Developer, I've designed this site to showcase my skills and projects. It highlights my expertise in responsive design, clean code, and innovative web solutions.
+Welcome to my personal portfolio website. As a Front End Developer, I've crafted this site to not only highlight my skills and projects but also to demonstrate how my expertise in responsive design, clean code, and innovative web solutions can drive success for your projects. Explore how my skills can solve your challenges.
 
 ## Technologies used
 
-- **React**: For building the user interface and implementing dynamic, interactive features with efficient component-based architecture..
 - **CSS**: To style the website, ensuring a visually appealing and user-friendly experience.
+- **React**: For building the user interface and implementing dynamic, interactive features with efficient component-based architecture.
+- **Vite**: For a fast development environment and optimized build processes, ensuring quick reloads and efficient bundling.
 
 ## Sections
 
