@@ -27,6 +27,7 @@ function HeroSection({ language }) {
       <img
         src={data[language].HeroSection.armanImageSource}
         alt={data[language].HeroSection.armanImageAlt}
+        loading="lazy"
         className="HeroSection__image"
       />
     </section>
