@@ -25,6 +25,7 @@ function HeroSection({ language }) {
       </div>
 
       <img
+        loading="eager"
         src={data[language].HeroSection.armanImageSource}
         alt={data[language].HeroSection.armanImageAlt}
         className="HeroSection__image"
