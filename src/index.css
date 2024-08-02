@@ -171,13 +171,6 @@ body.dark-mode {
   background: var(--scrollbar-thumb-hover-color);
 }
 
-/* Mobile-specific styles */
-@media (max-width: 768px) {
-  html {
-    overflow-x: hidden; /* Reapply overflow hidden for mobile devices */
-  }
-}
-
 /*============================
 ANIMATIONS====================
 ==============================*/
