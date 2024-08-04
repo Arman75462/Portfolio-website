@@ -148,7 +148,7 @@ const data = {
           imageAlt: "Screenshot of EtchASketch website",
           description:
             "The Etch A Sketch project is a creative and interactive web-based drawing application designed to emulate the classic Etch A Sketch toy. This application provides a virtual grid canvas where users can create detailed pixel art.",
-          websiteLink: "https://arman75462.github.io/EtchASketch/",
+          websiteLink: "https://etch-a-sketch7630.netlify.app/",
           id: 1,
         },
         {
@@ -355,7 +355,7 @@ const data = {
           imageAlt: "Capture d'écran du site web EtchASketch",
           description:
             "Le projet Etch A Sketch est une application de dessin interactive et créative basée sur le web, conçue pour émuler le jouet classique Etch A Sketch. Cette application fournit un canevas virtuel en grille où les utilisateurs peuvent créer des œuvres d'art en pixel détaillées.",
-          websiteLink: "https://arman75462.github.io/EtchASketch/",
+          websiteLink: "https://etch-a-sketch7630.netlify.app/",
           id: 1,
         },
         {
