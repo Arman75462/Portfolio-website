@@ -14,7 +14,7 @@ function SkillsSection({ language }) {
       <article
         className="SkillsSection__skills-container"
         data-aos="fade-up"
-        data-aos-anchor-placement="center-bottom"
+        data-aos-anchor-placement="top-center"
       >
         {data[language].SkillsSection.skillsCard.frontEndTools.skills.map(
           (skill) => (
@@ -38,7 +38,7 @@ function SkillsSection({ language }) {
       <article
         className="SkillsSection__skills-container"
         data-aos="fade-up"
-        data-aos-anchor-placement="center-bottom"
+        data-aos-anchor-placement="top-center"
       >
         {data[language].SkillsSection.skillsCard.devTools.skills.map(
           (skill) => (
