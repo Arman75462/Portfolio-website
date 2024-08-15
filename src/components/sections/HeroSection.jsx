@@ -5,7 +5,6 @@ import CallToActionButton from "/src/components/elements/CallToActionButton.jsx"
 function HeroSection({ language }) {
   return (
     <section className="HeroSection" id="HeroSection" data-aos="zoom-out">
-      <div className="HeroSection__parallax"></div>
       {/* Just a flex container  */}
       <div className="HeroSection__content">
         <h1 className="HeroSection__title">
