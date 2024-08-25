@@ -18,6 +18,7 @@ import simpsonsMatchupImage from "/src/assets/images/SimpsonsMatchup.webp";
 import taskManagerImage from "/src/assets/images/TaskManager.webp";
 import tictactoeImage from "/src/assets/images/TicTacToe.webp";
 import weatherWebsiteImage from "/src/assets/images/Weather-website.webp";
+import jewelHouseImage from "/src/assets/images/jewelHouse.webp";
 
 /* Contact info images */
 import mailIcon from "/src/assets/images/mailIcon.webp";
@@ -206,6 +207,15 @@ const data = {
             "The Task Manager is a user-friendly web-based application designed to help individuals manage their daily tasks efficiently. This application enables users to quickly add, organize, and prioritize tasks, ensuring they stay on top of their workload.",
           websiteLink: "https://arman75462.github.io/ToDoList/",
           id: 2,
+        },
+        {
+          title: "Jewel House",
+          imageSource: jewelHouseImage,
+          imageAlt: "Screenshot of Jewel House website",
+          description:
+            "Bijoux Store is a sleek, React-based web application that offers a sophisticated online shopping experience. With a refined interface and a dynamic cart system, it ensures smooth navigation and real-time updates for an elegant shopping journey. (Note: This is a fictitious example and does not reflect an actual online store.)",
+          websiteLink: "https://jewel-house.netlify.app",
+          id: 3,
         },
       ],
     },
@@ -413,6 +423,15 @@ const data = {
             "Task Manager est une application web conviviale conçue pour aider les individus à gérer leurs tâches quotidiennes de manière efficace. Cette application permet aux utilisateurs d'ajouter, d'organiser et de prioriser rapidement les tâches, assurant ainsi qu'ils restent à jour avec leur charge de travail.",
           websiteLink: "https://arman75462.github.io/ToDoList/",
           id: 2,
+        },
+        {
+          title: "Jewel House",
+          imageSource: jewelHouseImage,
+          imageAlt: "Capture d'écran du site web Jewel House",
+          description:
+            "Jewel House est une application élégante basée sur React qui offre une expérience d'achat en ligne sophistiquée. Avec une interface raffinée et un système de panier dynamique, elle assure une navigation fluide et des mises à jour en temps réel pour un parcours d'achat élégant. (Note : Ce site web est un exemple fictif et ne reflète pas une boutique en ligne réelle.)",
+          websiteLink: "https://jewel-house.netlify.app",
+          id: 3,
         },
       ],
     },
