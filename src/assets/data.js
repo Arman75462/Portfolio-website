@@ -72,8 +72,12 @@ const data = {
     },
     AboutSection: {
       title: "About me",
-      personalIntroduction:
-        "Hi! I'm Arman, a front-end developer where I make technology meet art. My formula: clean code, user-focused design, and a dash of elegance. I'm an architect in code, passionate about crafting both the structure and beauty of websites. Driven by the excitement of bringing ideas to life, I'm constantly learning and innovating. Ready to create stunning, functional digital solutions? Let's make something incredible together.",
+      personalIntroductionP1:
+        "Hi! I'm Arman, a front-end developer passionate about creating clean, efficient code and engaging user experiences. I specialize in transforming ideas into visually appealing and user-friendly websites that drive results.",
+      personalIntroductionP2:
+        "I’m committed to continuously learning and mastering the latest technologies to deliver top-notch solutions that meet both user needs and business objectives. My approach blends creativity with technical expertise to ensure every project is not just functional but exceptional.",
+      personalIntroductionP3:
+        "Excited to bring my skills to a talented team and be part of innovative projects. I look forward to collaborating to create exceptional solutions!",
       résuméLink:
         "https://1drv.ms/w/c/743c0a64b9cc236f/EdFNOOEdLqNPgSKpJi4eaSsB3EshKsNbmj8JPYEPw1SHSw?e=4vR6oF",
     },
@@ -213,7 +217,7 @@ const data = {
           imageSource: jewelHouseImage,
           imageAlt: "Screenshot of Jewel House website",
           description:
-            "Bijoux Store is a sleek, React-based web application that offers a sophisticated online shopping experience. With a refined interface and a dynamic cart system, it ensures smooth navigation and real-time updates for an elegant shopping journey. (Note: This is a fictitious example and does not reflect an actual online store.)",
+            "Jewel House is a sleek, React-based web application that offers a sophisticated online shopping experience. With a refined interface and a dynamic cart system, it ensures smooth navigation and real-time updates for an elegant shopping journey. (Note: This is a fictitious example and does not reflect an actual online store.)",
           websiteLink: "https://jewel-house.netlify.app",
           id: 3,
         },
@@ -288,8 +292,12 @@ const data = {
     },
     AboutSection: {
       title: "À propos",
-      personalIntroduction:
-        "Salut ! Je suis Arman, un développeur front-end où je fais rencontrer la technologie avec l'art. Ma formule : du code propre, un design centré sur l'utilisateur, et une touche d'élégance.Je suis un architecte en programmation, passionné par la création de la structure et de la beauté des sites web. Animé par l'excitation de donner vie aux idées, j'apprends et innove constamment. Prêt à créer des solutions numériques étonnantes et fonctionnelles ? Faisons quelque chose d'incroyable ensemble.",
+      personalIntroductionP1:
+        "Bonjour ! Je suis Arman, un développeur front-end passionné par la création de code propre et efficace et d'expériences utilisateur engageantes. Je me spécialise dans la transformation d'idées en sites web esthétiques et conviviaux qui produisent des résultats.",
+      personalIntroductionP2:
+        "Je suis déterminé à apprendre et à maîtriser les dernières technologies pour fournir des solutions de qualité qui répondent aux besoins des utilisateurs et aux objectifs commerciaux. Mon approche combine créativité et expertise technique pour garantir que chaque projet soit non seulement fonctionnel, mais aussi exceptionnel.",
+      personalIntroductionP3:
+        "Je suis motivé par l'idée de contribuer avec mes compétences à une équipe talentueuse et de participer à des projets innovants. J'ai hâte de collaborer avec vous pour créer des solutions exceptionnelles !",
       résuméLink:
         "https://1drv.ms/w/c/743c0a64b9cc236f/Eajbz59dAJNEhlVY7vKMsHwBAdg0z8ifw8INvd3YuYULeQ?e=0xihJA",
     },
