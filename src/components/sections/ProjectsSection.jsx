@@ -1,6 +1,5 @@
 import { useState } from "react";
 import "/src/styles/sections-styles/ProjectsSection.css";
-import CallToActionButton from "/src/components/elements/CallToActionButton.jsx";
 import data from "/src/assets/data.js";
 
 function ProjectsSection({ language, isDarkMode }) {
@@ -49,7 +48,7 @@ function ProjectsSection({ language, isDarkMode }) {
             <p className="project__description">{project.description}</p>
 
             <a href={project.websiteLink} className="project__link">
-              View Project
+              {data[language].ProjectsSection.projectLinkTextProjectsLists}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="1em"

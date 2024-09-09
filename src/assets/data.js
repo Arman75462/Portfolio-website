@@ -158,6 +158,7 @@ const data = {
     },
     ProjectsSection: {
       title: "My projects",
+      projectLinkTextProjectsLists: "View Project",
       projectsList: [
         {
           title: "EtchASketch",
@@ -389,6 +390,7 @@ const data = {
     },
     ProjectsSection: {
       title: "Mes projets",
+      projectLinkTextProjectsLists: "Voir Projet",
       projectsList: [
         {
           title: "EtchASketch",
