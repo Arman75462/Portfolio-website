@@ -9,6 +9,7 @@ import javascriptIcon from "/src/assets/images/JavaScript.webp";
 import jestIcon from "/src/assets/images/jest.webp";
 import npmIcon from "/src/assets/images/npm.png";
 import reactIcon from "/src/assets/images/react.webp";
+import sqlIcon from "/src/assets/images/SQL.webp";
 
 /* Projects images */
 import cvMakerImage from "/src/assets/images/CVMaker.webp";
@@ -139,6 +140,17 @@ const data = {
               imageSource: jestIcon,
               imageAlt: "Jest icon by Icons8",
               id: 4,
+            },
+          ],
+        },
+        backEndTools: {
+          title: "Back-End Development",
+          skills: [
+            {
+              name: "SQL",
+              imageSource: sqlIcon,
+              imageAlt: "SQL icon by Icons8",
+              id: 1,
             },
           ],
         },
@@ -359,6 +371,17 @@ const data = {
               imageSource: jestIcon,
               imageAlt: "Icône Jest par Icons8",
               id: 4,
+            },
+          ],
+        },
+        backEndTools: {
+          title: "Développement Back-End",
+          skills: [
+            {
+              name: "SQL",
+              imageSource: sqlIcon,
+              imageAlt: "Icône SQL par Icons8",
+              id: 1,
             },
           ],
         },
