@@ -8,6 +8,10 @@
   font-weight: 200;
 }
 
+.HeroSection__title {
+  font-size: clamp(3rem, 4vw, 50rem);
+}
+
 .HeroSection__image {
   border-radius: 0.5em;
   box-shadow: 0.1em 0.1em 0.3em 0 var(--striking-color);

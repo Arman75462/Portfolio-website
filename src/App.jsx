@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "/src/App.css";
@@ -12,8 +12,14 @@ import ContactSection from "/src/components/sections/ContactSection.jsx";
 function App() {
   const [language, setLanguage] = useState("en");
   const [isDarkMode, setIsDarkMode] = useState(true);
-  const [cursorPosition, setCursorPosition] = useState({ x: -1000, y: -1000 });
+
+  // Default position of the cursor, to make it invisble when app mounts
+  const [cursorPosition, setCursorPosition] = useState({
+    x: -1000,
+    y: -1000,
+  });
   const [isMobile, setIsMobile] = useState(false);
+  const cursorOutlineRef = useRef(null);
 
   useEffect(() => {
     AOS.init({
@@ -43,6 +49,17 @@ function App() {
     if (!isMobile) {
       setCursorPosition({ x: e.clientX, y: e.clientY });
     }
+
+    // This allows the cursor outline to move
+    cursorOutlineRef.current.animate(
+      [
+        { left: `${e.clientX}px`, top: `${e.clientY}px` }, // Target position
+      ],
+      {
+        duration: 300,
+        fill: "forwards",
+      }
+    );
   }
 
   return (
@@ -52,11 +69,12 @@ function App() {
         <>
           <div
             className="cursor-dot"
-            style={{ left: cursorPosition.x, top: cursorPosition.y }}
+            style={{ left: cursorPosition.x, top: cursorPosition.y }} // This allows the cursor dot to move
           ></div>
           <div
             className="cursor-outline"
-            style={{ left: cursorPosition.x, top: cursorPosition.y }}
+            ref={cursorOutlineRef}
+            style={{ left: cursorPosition.x, top: cursorPosition.y }} // Default cursor outline position
           ></div>
         </>
       )}
@@ -69,7 +87,7 @@ function App() {
       />
 
       <HeroSection language={language} />
-      <AboutSection language={language} />
+      <AboutSection language={language} isDarkMode={isDarkMode} />
       <SkillsSection language={language} />
       <ProjectsSection language={language} isDarkMode={isDarkMode} />
       <ContactSection language={language} />

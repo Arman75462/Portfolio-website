@@ -16,11 +16,9 @@ function HeroSection({ language }) {
           </div>
         </h1>
 
-        <CallToActionButton
-          className="HeroSection__cta"
-          text="Contact"
-          link="#ContactSection"
-        />
+        <CallToActionButton className="HeroSection__cta" link="#ContactSection">
+          Contact
+        </CallToActionButton>
       </div>
 
       <img
