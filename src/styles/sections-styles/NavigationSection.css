@@ -22,7 +22,7 @@
   /* Box shadow for the right */
   box-shadow: 0px 0px 0.5em var(--box-shadow-color);
   background: var(--body-background-color);
-  animation: flipBounce 1s forwards;
+  animation: menuFlipBounce 1s forwards;
 }
 
 .NavigationSection__link {

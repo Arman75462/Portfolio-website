@@ -174,7 +174,7 @@ body.dark-mode {
 /*============================
 ANIMATIONS====================
 ==============================*/
-@keyframes flipBounce {
+@keyframes menuFlipBounce {
   from {
     transform: perspective(75vw) rotateY(-90deg) scale(0.8); /* Start rotated and scaled down */
     opacity: 0; /* Start invisible */
