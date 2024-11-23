@@ -18,8 +18,9 @@ import quizzicalImage from "/src/assets/images/Quizzical.webp";
 import simpsonsMatchupImage from "/src/assets/images/SimpsonsMatchup.webp";
 import taskManagerImage from "/src/assets/images/TaskManager.webp";
 import tictactoeImage from "/src/assets/images/TicTacToe.webp";
-import weatherWebsiteImage from "/src/assets/images/Weather-website.webp";
+import weatherWebsiteImage from "/src/assets/images/WeatherWebsite.webp";
 import jewelHouseImage from "/src/assets/images/jewelHouse.webp";
+import memoryDuelImage from "/src/assets/images/memoryDuel.webp";
 
 /* Contact info images */
 import mailIcon from "/src/assets/images/mailIcon.webp";
@@ -161,13 +162,22 @@ const data = {
       projectLinkTextProjectsLists: "View Project",
       projectsList: [
         {
-          title: "EtchASketch",
-          imageSource: etchASketchImage,
-          imageAlt: "Screenshot of EtchASketch website",
+          title: "Jewel House",
+          imageSource: jewelHouseImage,
+          imageAlt: "Screenshot of Jewel House website",
           description:
-            "The Etch A Sketch project is a creative and interactive web-based drawing application designed to emulate the classic Etch A Sketch toy. This application provides a virtual grid canvas where users can create detailed pixel art.",
-          websiteLink: "https://etch-a-sketch7630.netlify.app/",
+            "Jewel House is a sleek, React-based web application that offers a sophisticated online shopping experience. With a refined interface and a dynamic cart system, it ensures smooth navigation and real-time updates for an elegant shopping journey. (Note: This is a fictitious example and does not reflect an actual online store.)",
+          websiteLink: "https://jewel-house.netlify.app",
           id: 1,
+        },
+        {
+          title: "Memory-Duel",
+          imageSource: memoryDuelImage,
+          imageAlt: "Screenshot of Memory_Duel website",
+          description:
+            "Dive into Memory Duel, a head-to-head card matching game for two players. Compete to find pairs and score points, all while enjoying the game’s dynamic visuals, smooth animations, and sound effects. This player vs player challenge is designed to test your memory skills and quick thinking. Ready to see who has the sharper memory?",
+          websiteLink: "https://memory-duel.netlify.app/",
+          id: 2,
         },
         {
           title: "Quizzical",
@@ -176,24 +186,15 @@ const data = {
           description:
             "Quizzical is an engaging trivia quiz game that tests your knowledge across various topics. Enjoy a fun and interactive experience as you answer questions and challenge yourself to achieve high scores.",
           websiteLink: "https://quizzical7630.netlify.app/",
-          id: 2,
+          id: 3,
         },
         {
           title: "SimpsonsMatchup",
           imageSource: simpsonsMatchupImage,
           imageAlt: "Screenshot of SimpsonsMatchup website",
           description:
-            "SimpsonsMatchup is a fun memory card game featuring characters from The Simpsons. Match pairs, choose difficulty levels, and enjoy animations, sound, and music. Track your progress with the scoreboard and easily restart or adjust settings.",
+            "Engage in a fun-filled memory challenge with our React-based game featuring The Simpsons. Successfully click on each card just once to win, but beware—clicking the same card twice spells defeat. The game increases in difficulty by randomizing the cards with each click, keeping you on your toes.",
           websiteLink: "https://simpsonsmatchup.netlify.app/",
-          id: 3,
-        },
-        {
-          title: "Weather-website",
-          imageSource: weatherWebsiteImage,
-          imageAlt: "Screenshot of Weather-website",
-          description:
-            "The Weather Website is a user-friendly, web-based application designed to provide users with comprehensive weather information for various locations around the world. This application is tailored for anyone needing accurate and up-to-date weather data, whether for planning travel, outdoor activities, or just daily life.",
-          websiteLink: "https://arman75462.github.io/Weather-website/",
           id: 4,
         },
         {
@@ -217,22 +218,31 @@ const data = {
           id: 1,
         },
         {
+          title: "Weather-website",
+          imageSource: weatherWebsiteImage,
+          imageAlt: "Screenshot of Weather-website",
+          description:
+            "The Weather Website is a user-friendly, web-based application designed to provide users with comprehensive weather information for various locations around the world. This application is tailored for anyone needing accurate and up-to-date weather data, whether for planning travel, outdoor activities, or just daily life.",
+          websiteLink: "https://arman75462.github.io/Weather-website/",
+          id: 2,
+        },
+        {
           title: "Task Manager",
           imageSource: taskManagerImage,
           imageAlt: "Screenshot of Task Manager website",
           description:
             "The Task Manager is a user-friendly web-based application designed to help individuals manage their daily tasks efficiently. This application enables users to quickly add, organize, and prioritize tasks, ensuring they stay on top of their workload.",
           websiteLink: "https://arman75462.github.io/ToDoList/",
-          id: 2,
+          id: 3,
         },
         {
-          title: "Jewel House",
-          imageSource: jewelHouseImage,
-          imageAlt: "Screenshot of Jewel House website",
+          title: "EtchASketch",
+          imageSource: etchASketchImage,
+          imageAlt: "Screenshot of EtchASketch website",
           description:
-            "Jewel House is a sleek, React-based web application that offers a sophisticated online shopping experience. With a refined interface and a dynamic cart system, it ensures smooth navigation and real-time updates for an elegant shopping journey. (Note: This is a fictitious example and does not reflect an actual online store.)",
-          websiteLink: "https://jewel-house.netlify.app",
-          id: 3,
+            "The Etch A Sketch project is a creative and interactive web-based drawing application designed to emulate the classic Etch A Sketch toy. This application provides a virtual grid canvas where users can create detailed pixel art.",
+          websiteLink: "https://etch-a-sketch7630.netlify.app/",
+          id: 4,
         },
       ],
     },
@@ -393,13 +403,22 @@ const data = {
       projectLinkTextProjectsLists: "Voir Projet",
       projectsList: [
         {
-          title: "EtchASketch",
-          imageSource: etchASketchImage,
-          imageAlt: "Capture d'écran du site web EtchASketch",
+          title: "Jewel House",
+          imageSource: jewelHouseImage,
+          imageAlt: "Capture d'écran du site web Jewel House",
           description:
-            "Le projet Etch A Sketch est une application de dessin interactive et créative basée sur le web, conçue pour émuler le jouet classique Etch A Sketch. Cette application fournit un canevas virtuel en grille où les utilisateurs peuvent créer des œuvres d'art en pixel détaillées.",
-          websiteLink: "https://etch-a-sketch7630.netlify.app/",
+            "Jewel House est une application élégante basée sur React qui offre une expérience d'achat en ligne sophistiquée. Avec une interface raffinée et un système de panier dynamique, elle assure une navigation fluide et des mises à jour en temps réel pour un parcours d'achat élégant. (Note : Ce site web est un exemple fictif et ne reflète pas une boutique en ligne réelle.)",
+          websiteLink: "https://jewel-house.netlify.app",
           id: 1,
+        },
+        {
+          title: "Memory-Duel",
+          imageSource: memoryDuelImage,
+          imageAlt: "Screenshot of Memory_Duel website",
+          description:
+            "Plongez dans Duel de Mémoire, un jeu de cartes compétitif pour deux joueurs. Affrontez un adversaire pour trouver des paires de cartes et marquer des points, tout en profitant de visuels dynamiques, d'animations fluides et d'effets sonores. Ce défi joueur contre joueur est conçu pour tester vos compétences de mémoire et votre rapidité d'esprit. Prêt à découvrir qui a la meilleure mémoire ?",
+          websiteLink: "https://memory-duel.netlify.app/",
+          id: 2,
         },
         {
           title: "Quizzical",
@@ -408,24 +427,15 @@ const data = {
           description:
             "Quizzical est un jeu de quiz captivant qui met vos connaissances à l'épreuve dans divers domaines. Profitez d'une expérience amusante et interactive en répondant aux questions et en vous défiant pour obtenir des scores élevés.",
           websiteLink: "https://quizzical7630.netlify.app/",
-          id: 2,
+          id: 3,
         },
         {
           title: "SimpsonsMatchup",
           imageSource: simpsonsMatchupImage,
           imageAlt: "Capture d'écran du site web SimpsonsMatchup",
           description:
-            "SimpsonsMatchup est un jeu de mémoire amusant mettant en vedette les personnages des Simpsons. Associez les paires, choisissez différents niveaux de difficulté et profitez des animations, des sons et de la musique. Suivez vos progrès avec le tableau des scores et redémarrez ou ajustez facilement les paramètres.",
+            "Plongez dans un défi de mémoire amusant avec notre jeu basé sur React mettant en vedette Les Simpsons. Cliquez avec succès sur chaque carte juste une fois pour triompher, mais attention — cliquer deux fois sur la même carte entraîne une défaite. Le jeu augmente en difficulté en mélangeant les cartes à chaque clic, vous gardant en alerte. ",
           websiteLink: "https://simpsonsmatchup.netlify.app/",
-          id: 3,
-        },
-        {
-          title: "Weather-website",
-          imageSource: weatherWebsiteImage,
-          imageAlt: "Capture d'écran du site web Weather-website",
-          description:
-            "Weather Website est une application web conviviale conçue pour fournir aux utilisateurs des informations météorologiques complètes pour différents endroits dans le monde. Cette application est adaptée pour tous ceux qui ont besoin de données météorologiques précises et à jour, que ce soit pour planifier des voyages, des activités en plein air, ou simplement pour la vie quotidienne.",
-          websiteLink: "https://arman75462.github.io/Weather-website/",
           id: 4,
         },
         {
@@ -449,22 +459,31 @@ const data = {
           id: 1,
         },
         {
+          title: "Weather-website",
+          imageSource: weatherWebsiteImage,
+          imageAlt: "Capture d'écran du site web Weather-website",
+          description:
+            "Weather Website est une application web conviviale conçue pour fournir aux utilisateurs des informations météorologiques complètes pour différents endroits dans le monde. Cette application est adaptée pour tous ceux qui ont besoin de données météorologiques précises et à jour, que ce soit pour planifier des voyages, des activités en plein air, ou simplement pour la vie quotidienne.",
+          websiteLink: "https://arman75462.github.io/Weather-website/",
+          id: 2,
+        },
+        {
           title: "Task Manager",
           imageSource: taskManagerImage,
           imageAlt: "Capture d'écran du site web Task Manager",
           description:
             "Task Manager est une application web conviviale conçue pour aider les individus à gérer leurs tâches quotidiennes de manière efficace. Cette application permet aux utilisateurs d'ajouter, d'organiser et de prioriser rapidement les tâches, assurant ainsi qu'ils restent à jour avec leur charge de travail.",
           websiteLink: "https://arman75462.github.io/ToDoList/",
-          id: 2,
+          id: 3,
         },
         {
-          title: "Jewel House",
-          imageSource: jewelHouseImage,
-          imageAlt: "Capture d'écran du site web Jewel House",
+          title: "EtchASketch",
+          imageSource: etchASketchImage,
+          imageAlt: "Capture d'écran du site web EtchASketch",
           description:
-            "Jewel House est une application élégante basée sur React qui offre une expérience d'achat en ligne sophistiquée. Avec une interface raffinée et un système de panier dynamique, elle assure une navigation fluide et des mises à jour en temps réel pour un parcours d'achat élégant. (Note : Ce site web est un exemple fictif et ne reflète pas une boutique en ligne réelle.)",
-          websiteLink: "https://jewel-house.netlify.app",
-          id: 3,
+            "Le projet Etch A Sketch est une application de dessin interactive et créative basée sur le web, conçue pour émuler le jouet classique Etch A Sketch. Cette application fournit un canevas virtuel en grille où les utilisateurs peuvent créer des œuvres d'art en pixel détaillées.",
+          websiteLink: "https://etch-a-sketch7630.netlify.app/",
+          id: 4,
         },
       ],
     },
