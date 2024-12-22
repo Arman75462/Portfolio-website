@@ -7,7 +7,7 @@
   font-display: swap;
 }
 
-.HeaderSection {
+.HeaderSection__sticked {
   position: fixed;
   top: 0;
   left: 0;
@@ -24,6 +24,27 @@
   /* Box shadow for the bottom */
   box-shadow: 0 0.1em 0.25em var(--box-shadow-color);
   background: var(--body-background-color);
+  transition: all 0.4s;
+}
+
+.HeaderSection__detachable {
+  position: fixed;
+  top: 2.5%;
+  left: 5%;
+  right: 5%;
+  /* To ensure it's above everything else */
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.3em max(7vw, 1em);
+  font-size: clamp(1.5rem, 2vw, 50rem);
+
+  /* Box shadow for the bottom */
+  box-shadow: 0 0.1em 0.25em var(--box-shadow-color);
+  background: var(--body-background-color);
+  border-radius: 1.1em;
+  transition: all 0.4s;
 }
 
 .HeaderSection__initials {
