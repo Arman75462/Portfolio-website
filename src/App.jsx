@@ -12,13 +12,13 @@ import ContactSection from "/src/components/sections/ContactSection.jsx";
 function App() {
   const [language, setLanguage] = useState("en");
   const [isDarkMode, setIsDarkMode] = useState(true);
-
   // Default position of the cursor, to make it invisble when app mounts
   const [cursorPosition, setCursorPosition] = useState({
     x: -1000,
     y: -1000,
   });
   const [isMobile, setIsMobile] = useState(false);
+
   const cursorOutlineRef = useRef(null);
 
   useEffect(() => {

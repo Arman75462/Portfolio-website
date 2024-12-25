@@ -33,14 +33,14 @@ function SkillsSection({ language }) {
       </article>
 
       <h3 className="SkillsSection__subtitle section__subtitle">
-        {data[language].SkillsSection.skillsCard.devTools.title}
+        {data[language].SkillsSection.skillsCard.backEndTools.title}
       </h3>
       <article
         className="SkillsSection__skills-container"
         data-aos="fade-up"
         data-aos-anchor-placement="top-center"
       >
-        {data[language].SkillsSection.skillsCard.devTools.skills.map(
+        {data[language].SkillsSection.skillsCard.backEndTools.skills.map(
           (skill) => (
             <div key={skill.id} className="skill-container">
               <img
@@ -57,14 +57,14 @@ function SkillsSection({ language }) {
       </article>
 
       <h3 className="SkillsSection__subtitle section__subtitle">
-        {data[language].SkillsSection.skillsCard.backEndTools.title}
+        {data[language].SkillsSection.skillsCard.devTools.title}
       </h3>
       <article
         className="SkillsSection__skills-container"
         data-aos="fade-up"
         data-aos-anchor-placement="top-center"
       >
-        {data[language].SkillsSection.skillsCard.backEndTools.skills.map(
+        {data[language].SkillsSection.skillsCard.devTools.skills.map(
           (skill) => (
             <div key={skill.id} className="skill-container">
               <img

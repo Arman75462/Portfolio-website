@@ -10,6 +10,8 @@ import jestIcon from "/src/assets/images/jest.webp";
 import npmIcon from "/src/assets/images/npm.png";
 import reactIcon from "/src/assets/images/react.webp";
 import sqlIcon from "/src/assets/images/SQL.webp";
+import expressIcon from "/src/assets/images/expressIcon.webp";
+import nodeJsIcon from "/src/assets/images/nodeJsIcon.webp";
 
 /* Projects images */
 import cvMakerImage from "/src/assets/images/CVMaker.webp";
@@ -92,54 +94,25 @@ const data = {
             {
               name: "HTML",
               imageSource: htmlIcon,
-              imageAlt: "HTML icon by Icons8",
+              imageAlt: "HTML icon",
               id: 1,
             },
             {
               name: "CSS",
               imageSource: cssIcon,
-              imageAlt: "CSS icon by Icons8",
+              imageAlt: "CSS icon",
               id: 2,
             },
             {
               name: "JavaScript",
               imageSource: javascriptIcon,
-              imageAlt: "JavaScript icon by Icons8n",
+              imageAlt: "JavaScript iconn",
               id: 3,
             },
             {
               name: "React",
               imageSource: reactIcon,
-              imageAlt: "React icon by Icons8",
-              id: 4,
-            },
-          ],
-        },
-        devTools: {
-          title: "Development Tools",
-          skills: [
-            {
-              name: "NPM",
-              imageSource: npmIcon,
-              imageAlt: "NPM icon by Icons8",
-              id: 1,
-            },
-            {
-              name: "Git",
-              imageSource: gitIcon,
-              imageAlt: "Git icon by Icons8",
-              id: 2,
-            },
-            {
-              name: "GitHub",
-              imageSource: githubIcon,
-              imageAlt: "GitHub icon by Icons8",
-              id: 3,
-            },
-            {
-              name: "Jest",
-              imageSource: jestIcon,
-              imageAlt: "Jest icon by Icons8",
+              imageAlt: "React icon",
               id: 4,
             },
           ],
@@ -150,13 +123,55 @@ const data = {
             {
               name: "SQL",
               imageSource: sqlIcon,
-              imageAlt: "SQL icon by Icons8",
+              imageAlt: "SQL icon",
               id: 1,
+            },
+            {
+              name: "NodeJs",
+              imageSource: nodeJsIcon,
+              imageAlt: "Node.js icon",
+              id: 2,
+            },
+            {
+              name: "Express",
+              imageSource: expressIcon,
+              imageAlt: "Express icon",
+              id: 3,
+            },
+          ],
+        },
+        devTools: {
+          title: "Development Tools",
+          skills: [
+            {
+              name: "NPM",
+              imageSource: npmIcon,
+              imageAlt: "NPM icon",
+              id: 1,
+            },
+            {
+              name: "Git",
+              imageSource: gitIcon,
+              imageAlt: "Git icon",
+              id: 2,
+            },
+            {
+              name: "GitHub",
+              imageSource: githubIcon,
+              imageAlt: "GitHub icon",
+              id: 3,
+            },
+            {
+              name: "Jest",
+              imageSource: jestIcon,
+              imageAlt: "Jest icon",
+              id: 4,
             },
           ],
         },
       },
     },
+
     ProjectsSection: {
       title: "My projects",
       projectLinkTextProjectsLists: "View Project",
@@ -264,10 +279,10 @@ const data = {
         socialMediaInfo: {
           gitHubLink: "https://github.com/Arman75462",
           gitHubImage: githubIcon,
-          gitHubImageAlt: "GitHub icon by Icons8",
+          gitHubImageAlt: "GitHub icon",
           linkedInLink: "https://linkedin.com/in/arman-gulistani-115032263",
           linkedInImage: linkedinIcon,
-          linkedInImageAlt: "LinkedIn icon by Icons8",
+          linkedInImageAlt: "LinkedIn icon",
         },
       },
     },
@@ -333,54 +348,25 @@ const data = {
             {
               name: "HTML",
               imageSource: htmlIcon,
-              imageAlt: "Icône HTML par Icons8",
+              imageAlt: "Icône HTML",
               id: 1,
             },
             {
               name: "CSS",
               imageSource: cssIcon,
-              imageAlt: "Icône CSS par Icons8",
+              imageAlt: "Icône CSS",
               id: 2,
             },
             {
               name: "JavaScript",
               imageSource: javascriptIcon,
-              imageAlt: "Icône JavaScript par Icons8",
+              imageAlt: "Icône JavaScript",
               id: 3,
             },
             {
               name: "React",
               imageSource: reactIcon,
-              imageAlt: "Icône React par Icons8",
-              id: 4,
-            },
-          ],
-        },
-        devTools: {
-          title: "Outils de Développement",
-          skills: [
-            {
-              name: "NPM",
-              imageSource: npmIcon,
-              imageAlt: "Icône NPM par Icons8",
-              id: 1,
-            },
-            {
-              name: "Git",
-              imageSource: gitIcon,
-              imageAlt: "Icône Git par Icons8",
-              id: 2,
-            },
-            {
-              name: "GitHub",
-              imageSource: githubIcon,
-              imageAlt: "Icône GitHub par Icons8",
-              id: 3,
-            },
-            {
-              name: "Jest",
-              imageSource: jestIcon,
-              imageAlt: "Icône Jest par Icons8",
+              imageAlt: "Icône React",
               id: 4,
             },
           ],
@@ -391,8 +377,49 @@ const data = {
             {
               name: "SQL",
               imageSource: sqlIcon,
-              imageAlt: "Icône SQL par Icons8",
+              imageAlt: "Icône SQL",
               id: 1,
+            },
+            {
+              name: "NodeJs",
+              imageSource: nodeJsIcon,
+              imageAlt: "Icône Node.js",
+              id: 2,
+            },
+            {
+              name: "Express",
+              imageSource: expressIcon,
+              imageAlt: "Icône Express",
+              id: 3,
+            },
+          ],
+        },
+        devTools: {
+          title: "Outils de Développement",
+          skills: [
+            {
+              name: "NPM",
+              imageSource: npmIcon,
+              imageAlt: "Icône NPM",
+              id: 1,
+            },
+            {
+              name: "Git",
+              imageSource: gitIcon,
+              imageAlt: "Icône Git",
+              id: 2,
+            },
+            {
+              name: "GitHub",
+              imageSource: githubIcon,
+              imageAlt: "Icône GitHub",
+              id: 3,
+            },
+            {
+              name: "Jest",
+              imageSource: jestIcon,
+              imageAlt: "Icône Jest",
+              id: 4,
             },
           ],
         },
@@ -505,10 +532,10 @@ const data = {
         socialMediaInfo: {
           gitHubLink: "https://github.com/Arman75462",
           gitHubImage: githubIcon,
-          gitHubImageAlt: "Icône GitHub par Icons8",
+          gitHubImageAlt: "Icône GitHub",
           linkedInLink: "https://linkedin.com/in/arman-gulistani-115032263",
           linkedInImage: linkedinIcon,
-          linkedInImageAlt: "Icône LinkedIn par Icons8",
+          linkedInImageAlt: "Icône LinkedIn",
         },
       },
     },
