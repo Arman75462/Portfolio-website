@@ -14,7 +14,7 @@
 
 .HeroSection__image {
   border-radius: 0.5em;
-  box-shadow: 0.1em 0.1em 0.3em 0 var(--striking-color);
+  box-shadow: 0.1em 0.1em 0.3em 0 var(--box-shadow-color);
   margin: 0 auto;
   max-width: max(50vw, 400px);
   width: 100%;
