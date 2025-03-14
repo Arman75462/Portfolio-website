@@ -114,7 +114,7 @@ body.light-mode {
   --striking-color: #0000ab;
   --selection-color: #89cfff;
   --box-shadow-color: black;
-  --LanguageSwitcher__options-container-background-color: lightgray;
+  --LanguageSwitcher__options-container-background-color: #a3c8e9;
   --scrollbar-thumb-color: #c3c3c3;
   --scrollbar-thumb-hover-color: #9d9d9d;
 }
@@ -128,7 +128,7 @@ body.dark-mode {
   --striking-color: cyan;
   --selection-color: #33ffcc;
   --box-shadow-color: white;
-  --LanguageSwitcher__options-container-background-color: lightgray;
+  --LanguageSwitcher__options-container-background-color: #a7c7e7;
   --scrollbar-thumb-color: rgba(255, 255, 255, 0.2);
   --scrollbar-thumb-hover-color: rgba(255, 255, 255, 0.4);
 }

@@ -82,8 +82,7 @@ const data = {
         "I’m committed to continuously learning and mastering the latest technologies to deliver top-notch solutions that meet both user needs and business objectives. My approach blends creativity with technical expertise to ensure every project is not just functional but exceptional.",
       personalIntroductionP3:
         "Excited to bring my skills to a talented team and be part of innovative projects. I look forward to collaborating to create exceptional solutions!",
-      résuméLink:
-        "https://1drv.ms/w/c/743c0a64b9cc236f/EdFNOOEdLqNPgSKpJi4eaSsB3EshKsNbmj8JPYEPw1SHSw?e=4vR6oF",
+      résuméLink: "/src/assets/Résumé-English.pdf",
     },
     SkillsSection: {
       title: "Skillset",
@@ -275,7 +274,7 @@ const data = {
         emailImageAlt: "Email icon",
       },
       contactFooter: {
-        copyrightText: "© 2024 Arman Gulistani",
+        copyrightText: "© 2025 Arman Gulistani",
         socialMediaInfo: {
           gitHubLink: "https://github.com/Arman75462",
           gitHubImage: githubIcon,
@@ -336,8 +335,7 @@ const data = {
         "Je suis déterminé à apprendre et à maîtriser les dernières technologies pour fournir des solutions de qualité qui répondent aux besoins des utilisateurs et aux objectifs commerciaux. Mon approche combine créativité et expertise technique pour garantir que chaque projet soit non seulement fonctionnel, mais aussi exceptionnel.",
       personalIntroductionP3:
         "Je suis motivé par l'idée de contribuer avec mes compétences à une équipe talentueuse et de participer à des projets innovants. J'ai hâte de collaborer avec vous pour créer des solutions exceptionnelles !",
-      résuméLink:
-        "https://1drv.ms/w/c/743c0a64b9cc236f/Eajbz59dAJNEhlVY7vKMsHwBAdg0z8ifw8INvd3YuYULeQ?e=0xihJA",
+      résuméLink: "/src/assets/Résumé-French.pdf",
     },
     SkillsSection: {
       title: "Compétences",
@@ -528,7 +526,7 @@ const data = {
         emailImageAlt: "Icône de courriel",
       },
       contactFooter: {
-        copyrightText: "© 2024 Arman Gulistani",
+        copyrightText: "© 2025 Arman Gulistani",
         socialMediaInfo: {
           gitHubLink: "https://github.com/Arman75462",
           gitHubImage: githubIcon,
