@@ -82,7 +82,7 @@ const data = {
         "I’m committed to continuously learning and mastering the latest technologies to deliver top-notch solutions that meet both user needs and business objectives. My approach blends creativity with technical expertise to ensure every project is not just functional but exceptional.",
       personalIntroductionP3:
         "Excited to bring my skills to a talented team and be part of innovative projects. I look forward to collaborating to create exceptional solutions!",
-      résuméLink: "/src/assets/Résumé-English.pdf",
+      résuméLink: "/Résumé-English.pdf",
     },
     SkillsSection: {
       title: "Skillset",
@@ -335,7 +335,7 @@ const data = {
         "Je suis déterminé à apprendre et à maîtriser les dernières technologies pour fournir des solutions de qualité qui répondent aux besoins des utilisateurs et aux objectifs commerciaux. Mon approche combine créativité et expertise technique pour garantir que chaque projet soit non seulement fonctionnel, mais aussi exceptionnel.",
       personalIntroductionP3:
         "Je suis motivé par l'idée de contribuer avec mes compétences à une équipe talentueuse et de participer à des projets innovants. J'ai hâte de collaborer avec vous pour créer des solutions exceptionnelles !",
-      résuméLink: "/src/assets/Résumé-French.pdf",
+      résuméLink: "/Résumé-French.pdf",
     },
     SkillsSection: {
       title: "Compétences",
