@@ -335,7 +335,7 @@ const data = {
         "Je suis déterminé à apprendre et à maîtriser les dernières technologies pour fournir des solutions de qualité qui répondent aux besoins des utilisateurs et aux objectifs commerciaux. Mon approche combine créativité et expertise technique pour garantir que chaque projet soit non seulement fonctionnel, mais aussi exceptionnel.",
       personalIntroductionP3:
         "Je suis motivé par l'idée de contribuer avec mes compétences à une équipe talentueuse et de participer à des projets innovants. J'ai hâte de collaborer avec vous pour créer des solutions exceptionnelles !",
-      résuméLink: "/Résumé-French.pdf",
+      résuméLink: "/Résumé-Français.pdf",
     },
     SkillsSection: {
       title: "Compétences",
