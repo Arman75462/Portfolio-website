@@ -23,6 +23,8 @@ import tictactoeImage from "/src/assets/images/TicTacToe.webp";
 import weatherWebsiteImage from "/src/assets/images/WeatherWebsite.webp";
 import jewelHouseImage from "/src/assets/images/jewelHouse.webp";
 import memoryDuelImage from "/src/assets/images/memoryDuel.webp";
+import miniMessageBoardImage from "/src/assets/images/miniMessageBoardImage.webp";
+import readySiteImage from "/src/assets/images/readySiteImage.webp";
 
 /* Contact info images */
 import mailIcon from "/src/assets/images/mailIcon.webp";
@@ -187,19 +189,19 @@ const data = {
         {
           title: "Memory-Duel",
           imageSource: memoryDuelImage,
-          imageAlt: "Screenshot of Memory_Duel website",
+          imageAlt: "Screenshot of Memory-Duel website",
           description:
             "Dive into Memory Duel, a head-to-head card matching game for two players. Compete to find pairs and score points, all while enjoying the game’s dynamic visuals, smooth animations, and sound effects. This player vs player challenge is designed to test your memory skills and quick thinking. Ready to see who has the sharper memory?",
           websiteLink: "https://memory-duel.netlify.app/",
           id: 2,
         },
         {
-          title: "Quizzical",
-          imageSource: quizzicalImage,
-          imageAlt: "Screenshot of Quizzical website",
+          title: "Mini Message Board",
+          imageSource: miniMessageBoardImage,
+          imageAlt: "Screenshot of Mini Message Board website",
           description:
-            "Quizzical is an engaging trivia quiz game that tests your knowledge across various topics. Enjoy a fun and interactive experience as you answer questions and challenge yourself to achieve high scores.",
-          websiteLink: "https://quizzical7630.netlify.app/",
+            "Mini Message Board is a full-stack web application that allows users to post and delete messages. Built using React for the frontend and a custom Node.js backend with Express, it includes features like dynamic message boards, message deletion, and message persistence with a database. This project focuses on core functionality and backend integration over aesthetics.",
+          websiteLink: "https://minimessage-board.netlify.app/",
           id: 3,
         },
         {
@@ -212,13 +214,31 @@ const data = {
           id: 4,
         },
         {
+          title: "ReadySite",
+          imageSource: readySiteImage,
+          imageAlt: "Screenshot of ReadySite website",
+          description:
+            "ReadySite is a flexible and customizable website template designed to help users quickly create websites for clients. Built with React, it features a dynamic and responsive interface that can be tailored to suit a variety of industries. This template offers a ready-to-use structure that clients can easily personalize and deploy.",
+          websiteLink: "https://readysite.netlify.app/",
+          id: 5,
+        },
+        {
+          title: "Quizzical",
+          imageSource: quizzicalImage,
+          imageAlt: "Screenshot of Quizzical website",
+          description:
+            "Quizzical is an engaging trivia quiz game that tests your knowledge across various topics. Enjoy a fun and interactive experience as you answer questions and challenge yourself to achieve high scores.",
+          websiteLink: "https://quizzical7630.netlify.app/",
+          id: 6,
+        },
+        {
           title: "CV Maker",
           imageSource: cvMakerImage,
           imageAlt: "Screenshot of CV Maker website",
           description:
             "CV Maker is an online tool designed for crafting professional resumes customized to various job applications. It enables users to download their CVs, add personal photos, and customize the color scheme, among other features.",
           websiteLink: "https://incredible-entremet-748e8c.netlify.app/",
-          id: 5,
+          id: 7,
         },
       ],
       loadMoreProjectsList: [
@@ -446,12 +466,12 @@ const data = {
           id: 2,
         },
         {
-          title: "Quizzical",
-          imageSource: quizzicalImage,
-          imageAlt: "Capture d'écran du site web Quizzical",
+          title: "Mini Message Board",
+          imageSource: miniMessageBoardImage,
+          imageAlt: "Capture d'écran du site Mini Message Board",
           description:
-            "Quizzical est un jeu de quiz captivant qui met vos connaissances à l'épreuve dans divers domaines. Profitez d'une expérience amusante et interactive en répondant aux questions et en vous défiant pour obtenir des scores élevés.",
-          websiteLink: "https://quizzical7630.netlify.app/",
+            "Mini Message Board est une application web full-stack qui permet aux utilisateurs de publier et supprimer des messages. Développée avec React pour le frontend et un backend Node.js personnalisé avec Express, elle comprend des fonctionnalités comme des tableaux de messages dynamiques, la suppression de messages et la persistance des données. Ce projet met l’accent sur la fonctionnalité et l’intégration du backend plutôt que sur l’esthétique.",
+          websiteLink: "https://minimessage-board.netlify.app/",
           id: 3,
         },
         {
@@ -464,13 +484,32 @@ const data = {
           id: 4,
         },
         {
+          title: "ReadySite",
+          imageSource: readySiteImage,
+          imageAlt: "Capture d'écran du site ReadySite",
+          description:
+            "ReadySite est un modèle de site web flexible et personnalisable conçu pour aider les utilisateurs à créer rapidement des sites pour leurs clients. Développé avec React, il propose une interface dynamique et responsive qui peut être adaptée à divers secteurs. Ce modèle offre une structure prête à l'emploi que les clients peuvent facilement personnaliser et déployer.",
+          websiteLink: "https://readysite.netlify.app/",
+          id: 5,
+        },
+
+        {
+          title: "Quizzical",
+          imageSource: quizzicalImage,
+          imageAlt: "Capture d'écran du site web Quizzical",
+          description:
+            "Quizzical est un jeu de quiz captivant qui met vos connaissances à l'épreuve dans divers domaines. Profitez d'une expérience amusante et interactive en répondant aux questions et en vous défiant pour obtenir des scores élevés.",
+          websiteLink: "https://quizzical7630.netlify.app/",
+          id: 6,
+        },
+        {
           title: "CV Maker",
           imageSource: cvMakerImage,
           imageAlt: "Capture d'écran du site web CV Maker",
           description:
             "CV Maker est un outil en ligne conçu pour la création de CV professionnels personnalisés selon les différentes candidatures. Il permet aux utilisateurs de télécharger leur CV, d'ajouter une photo personnelle, de personnaliser le schéma de couleurs, parmi d'autres fonctionnalités.",
           websiteLink: "https://incredible-entremet-748e8c.netlify.app/",
-          id: 5,
+          id: 7,
         },
       ],
       loadMoreProjectsList: [
