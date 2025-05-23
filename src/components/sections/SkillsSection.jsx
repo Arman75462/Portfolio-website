@@ -79,6 +79,32 @@ function SkillsSection({ language }) {
           )
         )}
       </article>
+
+      <h3 className="SkillsSection__subtitle section__subtitle">
+        {data[language].SkillsSection.skillsCard.coreProgrammingLanguages.title}
+      </h3>
+      <article
+        className="SkillsSection__skills-container"
+        data-aos="fade-up"
+        data-aos-anchor-placement="top-center"
+      >
+        {data[
+          language
+        ].SkillsSection.skillsCard.coreProgrammingLanguages.skills.map(
+          (skill) => (
+            <div key={skill.id} className="skill-container">
+              <img
+                loading="lazy"
+                src={skill.imageSource}
+                alt={skill.imageAlt}
+                className="skill__icon"
+              />
+              <p className="skill__name">{skill.name}</p>
+              <p className="skill-number">{skill.id}</p>
+            </div>
+          )
+        )}
+      </article>
     </section>
   );
 }

@@ -12,6 +12,9 @@ import reactIcon from "/src/assets/images/react.webp";
 import sqlIcon from "/src/assets/images/SQL.webp";
 import expressIcon from "/src/assets/images/expressIcon.webp";
 import nodeJsIcon from "/src/assets/images/nodeJsIcon.webp";
+import CIcon from "/src/assets/images/CIcon.svg";
+import javaIcon from "/src/assets/images/javaIcon.svg";
+import firebaseIcon from "/src/assets/images/firebaseIcon.svg";
 
 /* Projects images */
 import cvMakerImage from "/src/assets/images/CVMaker.webp";
@@ -139,6 +142,12 @@ const data = {
               imageAlt: "Express icon",
               id: 3,
             },
+            {
+              name: "Firebase",
+              imageSource: firebaseIcon,
+              imageAlt: "Firebase icon",
+              id: 4,
+            },
           ],
         },
         devTools: {
@@ -167,6 +176,23 @@ const data = {
               imageSource: jestIcon,
               imageAlt: "Jest icon",
               id: 4,
+            },
+          ],
+        },
+        coreProgrammingLanguages: {
+          title: "Core Programming Languages",
+          skills: [
+            {
+              name: "Java",
+              imageSource: javaIcon,
+              imageAlt: "Java icon",
+              id: 1,
+            },
+            {
+              name: "C",
+              imageSource: CIcon,
+              imageAlt: "C icon",
+              id: 2,
             },
           ],
         },
@@ -410,6 +436,12 @@ const data = {
               imageAlt: "Icône Express",
               id: 3,
             },
+            {
+              name: "Firebase",
+              imageSource: firebaseIcon,
+              imageAlt: "Icône Firebase",
+              id: 4,
+            },
           ],
         },
         devTools: {
@@ -438,6 +470,23 @@ const data = {
               imageSource: jestIcon,
               imageAlt: "Icône Jest",
               id: 4,
+            },
+          ],
+        },
+        coreProgrammingLanguages: {
+          title: "Langages de Programmation Fondamentaux",
+          skills: [
+            {
+              name: "Java",
+              imageSource: javaIcon,
+              imageAlt: "Icône Java",
+              id: 1,
+            },
+            {
+              name: "C",
+              imageSource: CIcon,
+              imageAlt: "Icône C",
+              id: 2,
             },
           ],
         },
