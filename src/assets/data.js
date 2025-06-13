@@ -15,6 +15,8 @@ import nodeJsIcon from "/src/assets/images/nodeJsIcon.webp";
 import CIcon from "/src/assets/images/CIcon.svg";
 import javaIcon from "/src/assets/images/javaIcon.svg";
 import firebaseIcon from "/src/assets/images/firebaseIcon.svg";
+import pythonIcon from "/src/assets/images/pythonIcon.webp";
+import typescriptIcon from "/src/assets/images/typescriptIcon.webp";
 
 /* Projects images */
 import cvMakerImage from "/src/assets/images/CVMaker.webp";
@@ -110,14 +112,20 @@ const data = {
             {
               name: "JavaScript",
               imageSource: javascriptIcon,
-              imageAlt: "JavaScript iconn",
+              imageAlt: "JavaScript icon",
               id: 3,
+            },
+            {
+              name: "TypeScript",
+              imageSource: typescriptIcon,
+              imageAlt: "TypeScript icon",
+              id: 4,
             },
             {
               name: "React",
               imageSource: reactIcon,
               imageAlt: "React icon",
-              id: 4,
+              id: 5,
             },
           ],
         },
@@ -193,6 +201,12 @@ const data = {
               imageSource: CIcon,
               imageAlt: "C icon",
               id: 2,
+            },
+            {
+              name: "Python",
+              imageSource: pythonIcon,
+              imageAlt: "Python icon",
+              id: 3,
             },
           ],
         },
@@ -408,10 +422,16 @@ const data = {
               id: 3,
             },
             {
+              name: "TypeScript",
+              imageSource: typescriptIcon,
+              imageAlt: "Icône TypeScript",
+              id: 4,
+            },
+            {
               name: "React",
               imageSource: reactIcon,
               imageAlt: "Icône React",
-              id: 4,
+              id: 5,
             },
           ],
         },
@@ -487,6 +507,12 @@ const data = {
               imageSource: CIcon,
               imageAlt: "Icône C",
               id: 2,
+            },
+            {
+              name: "Python",
+              imageSource: pythonIcon,
+              imageAlt: "Icône Python",
+              id: 3,
             },
           ],
         },
