@@ -23,8 +23,8 @@ function HeroSection({ language }) {
 
       <img
         loading="eager"
-        src={data[language].HeroSection.armanImageSource}
-        alt={data[language].HeroSection.armanImageAlt}
+        src={data[language].HeroSection.heroImageSource}
+        alt={data[language].HeroSection.heroImageAlt}
         className="HeroSection__image"
       />
     </section>

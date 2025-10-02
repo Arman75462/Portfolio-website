@@ -21,21 +21,6 @@ function ContactSection({ language }) {
 
       {/* CONTACT-INFO */}
       <section className="ContactSection__info">
-        {/* PHONE NUMBER */}
-        <article className="ContactSection__info-item">
-          <img
-            loading="lazy"
-            src={data[language].ContactSection.contactInfo.telephoneNumberImage}
-            alt={
-              data[language].ContactSection.contactInfo.telephoneNumberImageAlt
-            }
-            className="ContactSection__info-icon"
-          />
-          <p className="ContactSection__info-phone">
-            {data[language].ContactSection.contactInfo.telephoneNumber}
-          </p>
-        </article>
-
         {/* EMAIL LINK */}
         <article className="ContactSection__info-item">
           <img

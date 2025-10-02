@@ -18,6 +18,8 @@
   margin: 0 auto;
   max-width: max(50vw, 400px);
   width: 100%;
+  /* 
+  border: 2px solid red; */
 }
 
 .HeroSection__cta {
@@ -33,7 +35,6 @@
 
   .HeroSection__image {
     align-self: flex-start;
-    max-width: 30vw;
-    width: 40%;
+    width: 45%;
   }
 }

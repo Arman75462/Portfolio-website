@@ -1,4 +1,4 @@
-import ArmanImage from "/src/assets/images/Arman.webp";
+import heroImage from "/src/assets/images/heroImage.webp";
 
 /* Skills images */
 import cssIcon from "/src/assets/images/CSS.webp";
@@ -33,7 +33,6 @@ import readySiteImage from "/src/assets/images/readySiteImage.webp";
 
 /* Contact info images */
 import mailIcon from "/src/assets/images/mailIcon.webp";
-import phoneIcon from "/src/assets/images/phoneIcon.webp";
 
 /* Social media images */
 import linkedinIcon from "/src/assets/images/LinkedIn.webp";
@@ -78,8 +77,8 @@ const data = {
         name: "Arman Gulistani",
         career: "Front End Developer",
       },
-      armanImageSource: ArmanImage,
-      armanImageAlt: "Arman Gulistani",
+      heroImageSource: heroImage,
+      heroImageAlt: "Matrix code",
     },
     AboutSection: {
       title: "About me",
@@ -326,8 +325,6 @@ const data = {
       endMessage:
         "This is the end! I hope you've gained a good insight into my skills and experiences. If you have opportunities or questions, I’m just a message away. Let's explore how we can contribute to mutual success!",
       contactInfo: {
-        telephoneNumber: "1 438 990 8805",
-        telephoneNumberImage: phoneIcon,
         telephoneNumberImageAlt: "Phone icon",
         email: "armangulistani@gmail.com",
         emailImage: mailIcon,
@@ -384,8 +381,8 @@ const data = {
         name: "Arman Gulistani",
         career: "Développeur Front End",
       },
-      armanImageSource: ArmanImage,
-      armanImageAlt: "Arman Gulistani",
+      heroImageSource: heroImage,
+      heroImageAlt: "Code matrix",
     },
     AboutSection: {
       title: "À propos",
@@ -632,8 +629,6 @@ const data = {
       endMessage:
         "C'est la fin ! J'espère que vous avez pu avoir un bon aperçu de mes compétences et de mes expériences. Si vous avez des opportunités ou des questions, je ne suis qu'à un message de distance. Explorons ensemble comment nous pouvons contribuer à un succès mutuel !",
       contactInfo: {
-        telephoneNumber: "1 438 990 8805",
-        telephoneNumberImage: phoneIcon,
         telephoneNumberImageAlt: "Icône de téléphone",
         email: "armangulistani@gmail.com",
         emailImage: mailIcon,
