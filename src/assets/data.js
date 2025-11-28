@@ -28,7 +28,7 @@ import tictactoeImage from "/src/assets/images/TicTacToe.webp";
 import weatherWebsiteImage from "/src/assets/images/WeatherWebsite.webp";
 import jewelHouseImage from "/src/assets/images/jewelHouse.webp";
 import memoryDuelImage from "/src/assets/images/memoryDuel.webp";
-import miniMessageBoardImage from "/src/assets/images/miniMessageBoardImage.webp";
+import miniMessageBoardImage from "/src/assets/images/miniMessageBoardImage.png";
 import readySiteImage from "/src/assets/images/readySiteImage.webp";
 
 /* Contact info images */
@@ -239,8 +239,8 @@ const data = {
           imageSource: miniMessageBoardImage,
           imageAlt: "Screenshot of Mini Message Board website",
           description:
-            "Mini Message Board is a full-stack web application that allows users to post and delete messages. Built using React for the frontend and a custom Node.js backend with Express, it includes features like dynamic message boards, message deletion, and message persistence with a database. This project focuses on core functionality and backend integration over aesthetics.",
-          websiteLink: "https://minimessage-board.netlify.app/",
+            "Mini Message Board is a lightweight full-stack app built with HTML, CSS, Express.js, and EJS, backed by a PostgreSQL database. Users can browse all messages, view individual entries, and add new posts with data stored persistently. The project highlights simplicity and backend reliability rather than heavy styling.",
+          websiteLink: "https://mini-message-board-ejs.onrender.com",
           id: 3,
         },
         {
@@ -542,8 +542,8 @@ const data = {
           imageSource: miniMessageBoardImage,
           imageAlt: "Capture d'écran du site Mini Message Board",
           description:
-            "Mini Message Board est une application web full-stack qui permet aux utilisateurs de publier et supprimer des messages. Développée avec React pour le frontend et un backend Node.js personnalisé avec Express, elle comprend des fonctionnalités comme des tableaux de messages dynamiques, la suppression de messages et la persistance des données. Ce projet met l’accent sur la fonctionnalité et l’intégration du backend plutôt que sur l’esthétique.",
-          websiteLink: "https://minimessage-board.netlify.app/",
+            "Mini Message Board est une application full-stack simple construite avec HTML, CSS, Express.js et EJS, appuyée par une base de données PostgreSQL. Les utilisateurs peuvent parcourir tous les messages, consulter chaque message individuellement et ajouter de nouveaux messages, tous stockés de manière persistante. Le projet met l’accent sur la simplicité et la fiabilité du backend plutôt que sur l’esthétique.",
+          websiteLink: "https://mini-message-board-ejs.onrender.com",
           id: 3,
         },
         {

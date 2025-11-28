@@ -17,8 +17,6 @@
 
   opacity: 0.5;
   border: 0.075em solid var(--text-color);
-  /* background-color: red; */
-  /* transition: top 100ms, left 100ms; */
 }
 
 .cursor-dot,
