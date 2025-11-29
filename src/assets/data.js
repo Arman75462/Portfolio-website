@@ -74,7 +74,7 @@ const data = {
     HeroSection: {
       h1: {
         name: "Arman Gulistani",
-        career: "Front End Developer",
+        career: "Full-Stack Developer",
       },
       heroImageSource: heroImage,
       heroImageAlt: "Matrix code",
@@ -82,7 +82,7 @@ const data = {
     AboutSection: {
       title: "About me",
       personalIntroductionP1:
-        "Hi! I'm Arman, a front-end developer passionate about creating clean, efficient code and engaging user experiences. I specialize in transforming ideas into visually appealing and user-friendly websites that drive results.",
+        "Hi! I'm Arman, a full-stack developer passionate about creating clean, efficient code and engaging user experiences. I specialize in transforming ideas into visually appealing and user-friendly websites that drive results.",
       personalIntroductionP2:
         "I’m committed to continuously learning and mastering the latest technologies to deliver top-notch solutions that meet both user needs and business objectives. My approach blends creativity with technical expertise to ensure every project is not just functional but exceptional.",
       personalIntroductionP3:
@@ -372,7 +372,7 @@ const data = {
     HeroSection: {
       h1: {
         name: "Arman Gulistani",
-        career: "Développeur Front End",
+        career: "Développeur Full-Stack",
       },
       heroImageSource: heroImage,
       heroImageAlt: "Code matrix",
@@ -380,7 +380,7 @@ const data = {
     AboutSection: {
       title: "À propos",
       personalIntroductionP1:
-        "Bonjour ! Je suis Arman, un développeur front-end passionné par la création de code propre et efficace et d'expériences utilisateur engageantes. Je me spécialise dans la transformation d'idées en sites web esthétiques et conviviaux qui produisent des résultats.",
+        "Bonjour ! Je suis Arman, un développeur full-stack passionné par la création de code propre et efficace et d'expériences utilisateur engageantes. Je me spécialise dans la transformation d'idées en sites web esthétiques et conviviaux qui produisent des résultats.",
       personalIntroductionP2:
         "Je suis déterminé à apprendre et à maîtriser les dernières technologies pour fournir des solutions de qualité qui répondent aux besoins des utilisateurs et aux objectifs commerciaux. Mon approche combine créativité et expertise technique pour garantir que chaque projet soit non seulement fonctionnel, mais aussi exceptionnel.",
       personalIntroductionP3:
