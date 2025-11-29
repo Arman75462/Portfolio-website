@@ -9,12 +9,11 @@ import javascriptIcon from "/src/assets/images/JavaScript.webp";
 import jestIcon from "/src/assets/images/jest.webp";
 import npmIcon from "/src/assets/images/npm.png";
 import reactIcon from "/src/assets/images/react.webp";
-import sqlIcon from "/src/assets/images/SQL.webp";
 import expressIcon from "/src/assets/images/expressIcon.webp";
 import nodeJsIcon from "/src/assets/images/nodeJsIcon.webp";
+import postgresIcon from "/src/assets/images/postgresIcon.webp";
 import CIcon from "/src/assets/images/CIcon.svg";
 import javaIcon from "/src/assets/images/javaIcon.svg";
-import firebaseIcon from "/src/assets/images/firebaseIcon.svg";
 import pythonIcon from "/src/assets/images/pythonIcon.webp";
 import typescriptIcon from "/src/assets/images/typescriptIcon.webp";
 
@@ -132,28 +131,22 @@ const data = {
           title: "Back-End Development",
           skills: [
             {
-              name: "SQL",
-              imageSource: sqlIcon,
-              imageAlt: "SQL icon",
-              id: 1,
-            },
-            {
               name: "NodeJs",
               imageSource: nodeJsIcon,
               imageAlt: "Node.js icon",
-              id: 2,
+              id: 1,
             },
             {
               name: "Express",
               imageSource: expressIcon,
               imageAlt: "Express icon",
-              id: 3,
+              id: 2,
             },
             {
-              name: "Firebase",
-              imageSource: firebaseIcon,
-              imageAlt: "Firebase icon",
-              id: 4,
+              name: "PostgreSQL",
+              imageSource: postgresIcon,
+              imageAlt: "PostgreSQL icon",
+              id: 3,
             },
           ],
         },
@@ -331,7 +324,7 @@ const data = {
         emailImageAlt: "Email icon",
       },
       contactFooter: {
-        copyrightText: "© 2025 Arman Gulistani",
+        copyrightText: "© 2026 Arman Gulistani",
         socialMediaInfo: {
           gitHubLink: "https://github.com/Arman75462",
           gitHubImage: githubIcon,
@@ -436,28 +429,22 @@ const data = {
           title: "Développement Back-End",
           skills: [
             {
-              name: "SQL",
-              imageSource: sqlIcon,
-              imageAlt: "Icône SQL",
-              id: 1,
-            },
-            {
               name: "NodeJs",
               imageSource: nodeJsIcon,
               imageAlt: "Icône Node.js",
-              id: 2,
+              id: 1,
             },
             {
               name: "Express",
               imageSource: expressIcon,
               imageAlt: "Icône Express",
-              id: 3,
+              id: 2,
             },
             {
-              name: "Firebase",
-              imageSource: firebaseIcon,
-              imageAlt: "Icône Firebase",
-              id: 4,
+              name: "PostgreSQL",
+              imageSource: postgresIcon,
+              imageAlt: "Icône PostgreSQL",
+              id: 3,
             },
           ],
         },
@@ -635,7 +622,7 @@ const data = {
         emailImageAlt: "Icône de courriel",
       },
       contactFooter: {
-        copyrightText: "© 2025 Arman Gulistani",
+        copyrightText: "© 2026 Arman Gulistani",
         socialMediaInfo: {
           gitHubLink: "https://github.com/Arman75462",
           gitHubImage: githubIcon,
