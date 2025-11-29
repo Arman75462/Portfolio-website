@@ -110,7 +110,8 @@ body.light-mode {
   --text-color: #0a0a0a;
   --button-text-color: #f5f5f5;
   --button-background-color: linear-gradient(90deg, #3b3bff, #005);
-  --body-background-color: linear-gradient(90deg, #f6ffff, #bdffff);
+  --button-background-color: #3b3bff;
+  --body-background-color: linear-gradient(90deg, #f6ffff, #adffff);
   --striking-color: #0000ab;
   --selection-color: #89cfff;
   --box-shadow-color: black;
@@ -124,7 +125,7 @@ body.dark-mode {
   --text-color: #f5f5f5;
   --button-text-color: #0a0a0a;
   --button-background-color: linear-gradient(90deg, #deffff, #9bffff);
-  --body-background-color: linear-gradient(90deg, #0a0a0a, #000032);
+  --body-background-color: linear-gradient(90deg, #0a0a0a, rgb(0, 0, 98));
   --striking-color: cyan;
   --selection-color: #33ffcc;
   --box-shadow-color: white;
