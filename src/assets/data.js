@@ -27,7 +27,7 @@ import tictactoeImage from "/src/assets/images/TicTacToe.webp";
 import weatherWebsiteImage from "/src/assets/images/WeatherWebsite.webp";
 import jewelHouseImage from "/src/assets/images/jewelHouse.webp";
 import memoryDuelImage from "/src/assets/images/memoryDuel.webp";
-import miniMessageBoardImage from "/src/assets/images/miniMessageBoardImage.png";
+import inventoryApplicationImage from "/src/assets/images/InventoryApplicationImage.webp";
 import readySiteImage from "/src/assets/images/readySiteImage.webp";
 
 /* Contact info images */
@@ -219,21 +219,21 @@ const data = {
           id: 1,
         },
         {
+          title: "Inventory Application",
+          imageSource: inventoryApplicationImage,
+          imageAlt: "Screenshot of Inventory Application website",
+          description:
+            "Frootie Inventory Application is a full-stack inventory system built with Node.js, Express.js, EJS, and PostgreSQL. It enables full CRUD management of products and categories with relational integrity, server-side validation, and secure SQL queries. The project highlights clean MVC architecture, practical handling of relational databases, and production-ready backend design, demonstrating real-world full-stack development skills beyond tutorials.",
+          websiteLink: "https://inventory-application-qu0a.onrender.com",
+          id: 2,
+        },
+        {
           title: "Memory-Duel",
           imageSource: memoryDuelImage,
           imageAlt: "Screenshot of Memory-Duel website",
           description:
             "Dive into Memory Duel, a head-to-head card matching game for two players. Compete to find pairs and score points, all while enjoying the game’s dynamic visuals, smooth animations, and sound effects. This player vs player challenge is designed to test your memory skills and quick thinking. Ready to see who has the sharper memory?",
           websiteLink: "https://memory-duel.netlify.app/",
-          id: 2,
-        },
-        {
-          title: "Mini Message Board",
-          imageSource: miniMessageBoardImage,
-          imageAlt: "Screenshot of Mini Message Board website",
-          description:
-            "Mini Message Board is a lightweight full-stack app built with HTML, CSS, Express.js, and EJS, backed by a PostgreSQL database. Users can browse all messages, view individual entries, and add new posts with data stored persistently. The project highlights simplicity and backend reliability rather than heavy styling.",
-          websiteLink: "https://mini-message-board-ejs.onrender.com",
           id: 3,
         },
         {
@@ -516,21 +516,21 @@ const data = {
           id: 1,
         },
         {
+          title: "Frootie Inventory Application",
+          imageSource: inventoryApplicationImage,
+          imageAlt: "Capture d'écran du site Inventory Application",
+          description:
+            "Frootie Inventory Application est une application full-stack développée avec Node.js, Express.js, EJS et PostgreSQL. Elle permet de gérer efficacement produits et catégories avec CRUD complet, intégrité relationnelle et requêtes SQL sécurisées. Le projet met en avant une architecture MVC claire, un backend robuste et des compétences full-stack concrètes prêtes pour un environnement réel.",
+          websiteLink: "https://inventory-application-qu0a.onrender.com",
+          id: 2,
+        },
+        {
           title: "Memory-Duel",
           imageSource: memoryDuelImage,
           imageAlt: "Screenshot of Memory_Duel website",
           description:
             "Plongez dans Duel de Mémoire, un jeu de cartes compétitif pour deux joueurs. Affrontez un adversaire pour trouver des paires de cartes et marquer des points, tout en profitant de visuels dynamiques, d'animations fluides et d'effets sonores. Ce défi joueur contre joueur est conçu pour tester vos compétences de mémoire et votre rapidité d'esprit. Prêt à découvrir qui a la meilleure mémoire ?",
           websiteLink: "https://memory-duel.netlify.app/",
-          id: 2,
-        },
-        {
-          title: "Mini Message Board",
-          imageSource: miniMessageBoardImage,
-          imageAlt: "Capture d'écran du site Mini Message Board",
-          description:
-            "Mini Message Board est une application full-stack simple construite avec HTML, CSS, Express.js et EJS, appuyée par une base de données PostgreSQL. Les utilisateurs peuvent parcourir tous les messages, consulter chaque message individuellement et ajouter de nouveaux messages, tous stockés de manière persistante. Le projet met l’accent sur la simplicité et la fiabilité du backend plutôt que sur l’esthétique.",
-          websiteLink: "https://mini-message-board-ejs.onrender.com",
           id: 3,
         },
         {
